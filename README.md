@@ -13,7 +13,7 @@ Learning-based visual relocalizers exhibit leading pose accuracy, but require ho
 
 </details>
 
-[📃 arXiv:2406](https://arxiv.org/pdf/2305.14059) | [⌨️ Code](https://github.com/nianticlabs/ace) | [🌐 Project Page](https://nianticlabs.github.io/ace)
+[📃 arXiv:2305](https://arxiv.org/pdf/2305.14059) | [⌨️ Code](https://github.com/nianticlabs/ace) | [🌐 Project Page](https://nianticlabs.github.io/ace)
 
 
 
@@ -28,7 +28,7 @@ Pose regression networks predict the camera pose of a query image relative to a 
 
 </details>
 
-[📃 arXiv:2406](https://arxiv.org/pdf/2404.09884) | [⌨️ Code](https://github.com/nianticlabs/marepo) | [🌐 Project Page](https://nianticlabs.github.io/marepo/)
+[📃 arXiv:2404](https://arxiv.org/pdf/2404.09884) | [⌨️ Code](https://github.com/nianticlabs/marepo) | [🌐 Project Page](https://nianticlabs.github.io/marepo/)
 
 <br>
 <br>
@@ -48,7 +48,7 @@ Camera localization methods based on retrieval, local feature matching, and 3D s
 
 </details>
 
-[📃 arXiv:2406](https://arxiv.org/pdf/2401.18083) | [⌨️ Code](https://github.com/microsoft/SceneLandmarkLocalization) | [🌐 Project Page]
+[📃 arXiv:2401](https://arxiv.org/pdf/2401.18083) | [⌨️ Code](https://github.com/microsoft/SceneLandmarkLocalization) | [🌐 Project Page]
 
 
 
