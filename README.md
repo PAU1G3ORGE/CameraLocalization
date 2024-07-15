@@ -30,6 +30,21 @@ Pose regression networks predict the camera pose of a query image relative to a 
 
 [📃 arXiv:2404](https://arxiv.org/pdf/2404.09884) | [⌨️ Code](https://github.com/nianticlabs/marepo) | [🌐 Project Page](https://nianticlabs.github.io/marepo/)
 
+
+#### <summary>Hybrid Structure-from-Motion and Camera Relocalization for Enhanced Egocentric Localization
+Authors: Jinjie Mai, Abdullah Hamdi, Silvio Giancola, Chen Zhao, Bernard Ghanem
+<details span>
+<summary><b>Abstract</b></summary>
+We built our pipeline EgoLoc-v1, mainly inspired by EgoLoc. We propose a model ensemble strategy to improve the camera pose estimation part of the VQ3D task, which has been proven to be essential in previous work. The core idea is not only to do SfM for egocentric videos but also to do 2D-3D matching between existing 3D scans and 2D video frames. In this way, we have a hybrid SfM and camera relocalization pipeline, which can provide us with more camera poses, leading to higher QwP and overall success rate. Our method achieves the best performance regarding the most important metric, the overall success rate. We surpass previous state-of-the-art, the competitive EgoLoc, by 1.5%.
+
+![image](https://github.com/user-attachments/assets/4a776328-b152-43c9-bcda-62daf19d821f)
+
+
+</details>
+
+[📃 arXiv:2407](https://arxiv.org/pdf/2407.08023) | [⌨️ Code](https://github.com/Wayne-Mai/egoloc_v1) | [🌐 Project Page]
+
+
 <br>
 <br>
 
@@ -65,4 +80,4 @@ Authors:
 
 </details>
 
-[📃 arXiv:2406] | [⌨️ Code] | [🌐 Project Page]
+[📃 arXiv:2407] | [⌨️ Code] | [🌐 Project Page]
