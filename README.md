@@ -16,6 +16,35 @@ Learning-based visual relocalizers exhibit leading pose accuracy, but require ho
 [📃 arXiv:2305](https://arxiv.org/pdf/2305.14059) | [⌨️ Code](https://github.com/nianticlabs/ace) | [🌐 Project Page](https://nianticlabs.github.io/ace)
 
 
+#### <summary>PNeRFLoc: Visual Localization with Point-based Neural Radiance Fields
+Authors: Boming Zhao, Luwei Yang, Mao Mao, Hujun Bao, Zhaopeng Cui
+<details span>
+<summary><b>Abstract</b></summary>
+Due to the ability to synthesize high-quality novel views, Neural Radiance Fields (NeRF) have been recently exploited to improve visual localization in a known environment. However, the existing methods mostly utilize NeRFs for data augmentation to improve the regression model training, and the performance on novel viewpoints and appearances is still limited due to the lack of geometric constraints. In this paper, we propose a novel visual localization framework, \ie, PNeRFLoc, based on a unified point-based representation. On the one hand, PNeRFLoc supports the initial pose estimation by matching 2D and 3D feature points as traditional structure-based methods; on the other hand, it also enables pose refinement with novel view synthesis using rendering-based optimization. Specifically, we propose a novel feature adaption module to close the gaps between the features for visual localization and neural rendering. To improve the efficacy and efficiency of neural rendering-based optimization, we also develop an efficient rendering-based framework with a warping loss function. Furthermore, several robustness techniques are developed to handle illumination changes and dynamic objects for outdoor scenarios. Experiments demonstrate that PNeRFLoc performs the best on synthetic data when the NeRF model can be well learned and performs on par with the SOTA method on the visual localization benchmark datasets.
+
+![image](https://github.com/user-attachments/assets/8802372f-3d0f-4997-8a59-3d4573042d91)
+
+
+</details>
+
+[📃 arXiv:2312](https://arxiv.org/pdf/2312.10649) | [⌨️ Code](https://github.com/BoMingZhao/PNeRFLoc?tab=readme-ov-file) | [🌐 Project Page](https://zju3dv.github.io/PNeRFLoc/)
+
+
+
+#### <summary>Learning to Produce Semi-dense Correspondences for Visual Localization
+Authors: Khang Truong Giang, Soohwan Song, Sungho Jo
+<details span>
+<summary><b>Abstract</b></summary>
+This study addresses the challenge of performing visual localization in demanding conditions such as night-time scenarios, adverse weather, and seasonal changes. While many prior studies have focused on improving image-matching performance to facilitate reliable dense keypoint matching between images, existing methods often heavily rely on predefined feature points on a reconstructed 3D model. Consequently, they tend to overlook unobserved keypoints during the matching process. Therefore, dense keypoint matches are not fully exploited, leading to a notable reduction in accuracy, particularly in noisy scenes. To tackle this issue, we propose a novel localization method that extracts reliable semi-dense 2D-3D matching points based on dense keypoint matches. This approach involves regressing semi-dense 2D keypoints into 3D scene coordinates using a point inference network. The network utilizes both geometric and visual cues to effectively infer 3D coordinates for unobserved keypoints from the observed ones. The abundance of matching information significantly enhances the accuracy of camera pose estimation, even in scenarios involving noisy or sparse 3D models. Comprehensive evaluations demonstrate that the proposed method outperforms other methods in challenging scenes and achieves competitive results in large-scale visual localization benchmarks.
+
+![image](https://github.com/user-attachments/assets/73307b7c-f612-4ab6-939a-fd5697d7139c)
+
+
+</details>
+
+[📃 arXiv:2402](https://arxiv.org/pdf/2402.08359) | [⌨️ Code](https://github.com/TruongKhang/DeViLoc?tab=readme-ov-file) | [🌐 Project Page]
+
+
 
 #### <summary>Map-Relative Pose Regression for Visual Re-Localization
 Authors: Shuai Chen, Tommaso Cavallari, Victor Adrian Prisacariu, Eric Brachmann
