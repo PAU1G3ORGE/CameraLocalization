@@ -88,7 +88,31 @@ This paper presents a novel system designed for 3D mapping and visual relocaliza
 [📃 arXiv:2403](https://arxiv.org/pdf/2403.11367v1) | [⌨️ Code] | [🌐 Project Page]
 
 
+#### <summary>Differentiable Product Quantization for Memory Efficient Camera Relocalization
+Authors: Zakaria Laskar, Iaroslav Melekhov, Assia Benbihi, Shuzhe Wang, Juho Kannala
+<details span>
+<summary><b>Abstract</b></summary>
+Camera relocalization relies on 3D models of the scene with a large memory footprint that is incompatible with the memory budget of several applications. One solution to reduce the scene memory size is map compression by removing certain 3D points and descriptor quantization. This achieves high compression but leads to performance drop due to information loss. To address the memory performance trade-off, we train a light-weight scene-specific auto-encoder network that performs descriptor quantization-dequantization in an end-to-end differentiable manner updating both product quantization centroids and network parameters through back-propagation. In addition to optimizing the network for descriptor reconstruction, we encourage it to preserve the descriptor-matching performance with margin-based metric loss functions. Results show that for a local descriptor memory of only 1MB, the synergistic combination of the proposed network and map compression achieves the best performance on the Aachen Day-Night compared to existing compression methods.
 
+![image](https://github.com/user-attachments/assets/59eaaf18-39a7-40fd-83c8-0c9dc8a7fff4)
+
+
+</details>
+
+[📃 arXiv:2407](https://arxiv.org/pdf/2407.15540) | [⌨️ Code] | [🌐 Project Page]
+
+
+#### <summary>6DGS: 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model
+Authors: Matteo Bortolon, Theodore Tsesmelis, Stuart James, Fabio Poiesi, Alessio Del Bue
+<details span>
+<summary><b>Abstract</b></summary>
+We propose 6DGS to estimate the camera pose of a target RGB image given a 3D Gaussian Splatting (3DGS) model representing the scene. 6DGS avoids the iterative process typical of analysis-by-synthesis methods (e.g. iNeRF) that also require an initialization of the camera pose in order to converge. Instead, our method estimates a 6DoF pose by inverting the 3DGS rendering process. Starting from the object surface, we define a radiant Ellicell that uniformly generates rays departing from each ellipsoid that parameterize the 3DGS model. Each Ellicell ray is associated with the rendering parameters of each ellipsoid, which in turn is used to obtain the best bindings between the target image pixels and the cast rays. These pixel-ray bindings are then ranked to select the best scoring bundle of rays, which their intersection provides the camera center and, in turn, the camera rotation. The proposed solution obviates the necessity of an "a priori" pose for initialization, and it solves 6DoF pose estimation in closed form, without the need for iterations. Moreover, compared to the existing Novel View Synthesis (NVS) baselines for pose estimation, 6DGS can improve the overall average rotational accuracy by 12% and translation accuracy by 22% on real scenes, despite not requiring any initialization pose. At the same time, our method operates near real-time, reaching 15fps on consumer hardware.
+
+![image](https://github.com/user-attachments/assets/0a15b55d-0d93-430f-855c-5d319675b42c)
+
+</details>
+
+[📃 arXiv:2407](https://arxiv.org/pdf/2407.15484) | [⌨️ Code](https://github.com/mbortolon97/6dgs) | [🌐 Project Page](https://mbortolon97.github.io/6dgs/)
 
 <br>
 <br>
