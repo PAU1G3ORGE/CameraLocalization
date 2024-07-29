@@ -155,6 +155,20 @@ Two-view pose estimation is essential for map-free visual relocalization and obj
 
 [📃 arXiv:2407](https://arxiv.org/pdf/2407.08199) | [⌨️ Code] | [🌐 Project Page]
 
+#### <summary>From 2D to 3D: AISG-SLA Visual Localization Challenge
+Authors: Jialin Gao, Bill Ong, Darld Lwi, Zhen Hao Ng, Xun Wei Yee, Mun-Thye Mak, Wee Siong Ng, See-Kiong Ng, Hui Ying Teo, Victor Khoo, Georg Bökman, Johan Edstedt, Kirill Brodt, Clémentin Boittiaux, Maxime Ferrera, Stepan Konev
+<details span>
+<summary><b>Abstract</b></summary>
+Research in 3D mapping is crucial for smart city applications, yet the cost of acquiring 3D data often hinders progress. Visual localization, particularly monocular camera position estimation, offers a solution by determining the camera's pose solely through visual cues. However, this task is challenging due to limited data from a single camera. To tackle these challenges, we organized the AISG-SLA Visual Localization Challenge (VLC) at IJCAI 2023 to explore how AI can accurately extract camera pose data from 2D images in 3D space. The challenge attracted over 300 participants worldwide, forming 50+ teams. Winning teams achieved high accuracy in pose estimation using images from a car-mounted camera with low frame rates. The VLC dataset is available for research purposes upon request via vlc-dataset@aisingapore.org.
+
+![image](https://github.com/user-attachments/assets/a8ce5d31-0fa4-4150-92ef-8bc832ae6d8f)
+
+
+</details>
+
+[📃 arXiv:2407](https://arxiv.org/pdf/2407.18590) | [⌨️ Code] | [🌐 Project Page]
+
+
 
 <br>
 <br>
