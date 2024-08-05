@@ -168,7 +168,18 @@ Research in 3D mapping is crucial for smart city applications, yet the cost of a
 
 [📃 arXiv:2407](https://arxiv.org/pdf/2407.18590) | [⌨️ Code] | [🌐 Project Page]
 
+#### <summary>Certifying Robustness of Learning-Based Keypoint Detection and Pose Estimation Methods
+Authors: Xusheng Luo, Tianhao Wei, Simin Liu, Ziwei Wang, Luis Mattei-Mendez, Taylor Loper, Joshua Neighbor, Casidhe Hutchison, Changliu Liu
+<details span>
+<summary><b>Abstract</b></summary>
+This work addresses the certification of the local robustness of vision-based two-stage 6D object pose estimation. The two-stage method for object pose estimation achieves superior accuracy by first employing deep neural network-driven keypoint regression and then applying a Perspective-n-Point (PnP) technique. Despite advancements, the certification of these methods' robustness remains scarce. This research aims to fill this gap with a focus on their local robustness on the system level--the capacity to maintain robust estimations amidst semantic input perturbations. The core idea is to transform the certification of local robustness into neural network verification for classification tasks. The challenge is to develop model, input, and output specifications that align with off-the-shelf verification tools. To facilitate verification, we modify the keypoint detection model by substituting nonlinear operations with those more amenable to the verification processes. Instead of injecting random noise into images, as is common, we employ a convex hull representation of images as input specifications to more accurately depict semantic perturbations. Furthermore, by conducting a sensitivity analysis, we propagate the robustness criteria from pose to keypoint accuracy, and then formulating an optimal error threshold allocation problem that allows for the setting of a maximally permissible keypoint deviation thresholds. Viewing each pixel as an individual class, these thresholds result in linear, classification-akin output specifications. Under certain conditions, we demonstrate that the main components of our certification framework are both sound and complete, and validate its effects through extensive evaluations on realistic perturbations. To our knowledge, this is the first study to certify the robustness of large-scale, keypoint-based pose estimation given images in real-world scenarios.
 
+![image](https://github.com/user-attachments/assets/8b3818ea-16e0-4a69-8dbc-f564fa5d9e20)
+
+
+</details>
+
+[📃 arXiv:2408](https://arxiv.org/pdf/2408.00117) | [⌨️ Code] | [🌐 Project Page]
 
 <br>
 <br>
