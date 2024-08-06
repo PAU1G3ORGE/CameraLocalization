@@ -181,6 +181,20 @@ This work addresses the certification of the local robustness of vision-based tw
 
 [📃 arXiv:2408](https://arxiv.org/pdf/2408.00117) | [⌨️ Code] | [🌐 Project Page]
 
+
+#### <summary>Generalized Maximum Likelihood Estimation for Perspective-n-Point Problem
+Authors: Tian Zhan, Chunfeng Xu, Cheng Zhang, Ke Zhu
+<details span>
+<summary><b>Abstract</b></summary>
+The Perspective-n-Point (PnP) problem has been widely studied in the literature and applied in various vision-based pose estimation scenarios. However, existing methods ignore the anisotropy uncertainty of observations, as demonstrated in several real-world datasets in this paper. This oversight may lead to suboptimal and inaccurate estimation, particularly in the presence of noisy observations. To this end, we propose a generalized maximum likelihood PnP solver, named GMLPnP, that minimizes the determinant criterion by iterating the GLS procedure to estimate the pose and uncertainty simultaneously. Further, the proposed method is decoupled from the camera model. Results of synthetic and real experiments show that our method achieves better accuracy in common pose estimation scenarios, GMLPnP improves rotation/translation accuracy by 4.7%/2.0% on TUM-RGBD and 18.6%/18.4% on KITTI-360 dataset compared to the best baseline. It is more accurate under very noisy observations in a vision-based UAV localization task, outperforming the best baseline by 34.4% in translation estimation accuracy.
+
+![image](https://github.com/user-attachments/assets/ddbc5d7f-dcf1-4d0b-9fbd-4b8a7559a397)
+
+
+</details>
+
+[📃 arXiv:2408](https://arxiv.org/pdf/2408.01945) | [⌨️ Code] | [🌐 Project Page]
+
 <br>
 <br>
 
