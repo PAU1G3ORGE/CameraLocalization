@@ -195,6 +195,33 @@ The Perspective-n-Point (PnP) problem has been widely studied in the literature 
 
 [📃 arXiv:2408](https://arxiv.org/pdf/2408.01945) | [⌨️ Code] | [🌐 Project Page]
 
+#### <summary>MambaLoc: Efficient Camera Localisation via State Space Model
+Authors: Jialu Wang, Kaichen Zhou, Andrew Markham, Niki Trigoni
+<details span>
+<summary><b>Abstract</b></summary>
+Location information is pivotal for the automation and intelligence of terminal devices and edge-cloud IoT systems, such as autonomous vehicles and augmented reality. However, achieving reliable positioning across diverse IoT applications remains challenging due to significant training costs and the necessity of densely collected data. To tackle these issues, we have innovatively applied the selective state space (SSM) model to visual localization, introducing a new model named MambaLoc. The proposed model demonstrates exceptional training efficiency by capitalizing on the SSM model's strengths in efficient feature extraction, rapid computation, and memory optimization, and it further ensures robustness in sparse data environments due to its parameter sparsity. Additionally, we propose the Global Information Selector (GIS), which leverages selective SSM to implicitly achieve the efficient global feature extraction capabilities of Non-local Neural Networks. This design leverages the computational efficiency of the SSM model alongside the Non-local Neural Networks' capacity to capture long-range dependencies with minimal layers. Consequently, the GIS enables effective global information capture while significantly accelerating convergence. Our extensive experimental validation using public indoor and outdoor datasets first demonstrates our model's effectiveness, followed by evidence of its versatility with various existing localization models. Our code and models are publicly available to support further research and development in this area.
+
+![image](https://github.com/user-attachments/assets/c902f2b7-df6d-4cb2-bba8-4637824356dd)
+
+
+</details>
+
+[📃 arXiv:2408](https://arxiv.org/pdf/2408.09680) | [⌨️ Code] | [🌐 Project Page]
+
+#### <summary>ADen: Adaptive Density Representations for Sparse-view Camera Pose Estimation (ECCV24 oral
+
+Authors: Hao Tang, Weiyao Wang, Pierre Gleize, Matt Feiszli
+<details span>
+<summary><b>Abstract</b></summary>
+Recovering camera poses from a set of images is a foundational task in 3D computer vision, which powers key applications such as 3D scene/object reconstructions. Classic methods often depend on feature correspondence, such as keypoints, which require the input images to have large overlap and small viewpoint changes. Such requirements present considerable challenges in scenarios with sparse views. Recent data-driven approaches aim to directly output camera poses, either through regressing the 6DoF camera poses or formulating rotation as a probability distribution. However, each approach has its limitations. On one hand, directly regressing the camera poses can be ill-posed, since it assumes a single mode, which is not true under symmetry and leads to sub-optimal solutions. On the other hand, probabilistic approaches are capable of modeling the symmetry ambiguity, yet they sample the entire space of rotation uniformly by brute-force. This leads to an inevitable trade-off between high sample density, which improves model precision, and sample efficiency that determines the runtime. In this paper, we propose ADen to unify the two frameworks by employing a generator and a discriminator: the generator is trained to output multiple hypotheses of 6DoF camera pose to represent a distribution and handle multi-mode ambiguity, and the discriminator is trained to identify the hypothesis that best explains the data. This allows ADen to combine the best of both worlds, achieving substantially higher precision as well as lower runtime than previous methods in empirical evaluations.
+
+![image](https://github.com/user-attachments/assets/1dbe5361-507d-4c73-8306-64ca81257331)
+
+
+</details>
+
+[📃 arXiv:2408](https://arxiv.org/pdf/2408.09042) | [⌨️ Code] | [🌐 Project Page]
+
 <br>
 <br>
 
