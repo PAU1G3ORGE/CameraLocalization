@@ -222,6 +222,19 @@ Recovering camera poses from a set of images is a foundational task in 3D comput
 
 [📃 arXiv:2408](https://arxiv.org/pdf/2408.09042) | [⌨️ Code] | [🌐 Project Page]
 
+#### <summary>GSLoc: Efficient Camera Pose Refinement via 3D Gaussian Splatting
+Authors: Changkun Liu, Shuai Chen, Yash Bhalgat, Siyan Hu, Zirui Wang, Ming Cheng, Victor Adrian Prisacariu, Tristan Braud
+<details span>
+<summary><b>Abstract</b></summary>
+We leverage 3D Gaussian Splatting (3DGS) as a scene representation and propose a novel test-time camera pose refinement framework, GSLoc. This framework enhances the localization accuracy of state-of-the-art absolute pose regression and scene coordinate regression methods. The 3DGS model renders high-quality synthetic images and depth maps to facilitate the establishment of 2D-3D correspondences. GSLoc obviates the need for training feature extractors or descriptors by operating directly on RGB images, utilizing the 3D vision foundation model, MASt3R, for precise 2D matching. To improve the robustness of our model in challenging outdoor environments, we incorporate an exposure-adaptive module within the 3DGS framework. Consequently, GSLoc enables efficient pose refinement given a single RGB query and a coarse initial pose estimation. Our proposed approach surpasses leading NeRF-based optimization methods in both accuracy and runtime across indoor and outdoor visual localization benchmarks, achieving state-of-the-art accuracy on two indoor datasets.
+
+![image](https://github.com/user-attachments/assets/a503a7df-9db5-4c70-9776-7b6a1e75e0ee)
+
+</details>
+
+[📃 arXiv:2408](https://arxiv.org/pdf/2408.11085) | [⌨️ Code] | [🌐 Project Page](https://gsloc.active.vision/)
+
+
 <br>
 <br>
 
