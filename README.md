@@ -233,9 +233,33 @@ We leverage 3D Gaussian Splatting (3DGS) as a scene representation and propose a
 
 [📃 arXiv:2408](https://arxiv.org/pdf/2408.11085) | [⌨️ Code] | [🌐 Project Page](https://gsloc.active.vision/)
 
+#### <summary>FUSELOC: Fusing Global and Local Descriptors to Disambiguate 2D-3D Matching in Visual Localization
+Authors: Son Tung Nguyen, Alejandro Fontan, Michael Milford, Tobias Fischer
+<details span>
+<summary><b>Abstract</b></summary>
+Hierarchical methods represent state-of-the-art visual localization, optimizing search efficiency by using global descriptors to focus on relevant map regions. However, this state-of-the-art performance comes at the cost of substantial memory requirements, as all database images must be stored for feature matching. In contrast, direct 2D-3D matching algorithms require significantly less memory but suffer from lower accuracy due to the larger and more ambiguous search space. We address this ambiguity by fusing local and global descriptors using a weighted average operator within a 2D-3D search framework. This fusion rearranges the local descriptor space such that geographically nearby local descriptors are closer in the feature space according to the global descriptors. Therefore, the number of irrelevant competing descriptors decreases, specifically if they are geographically distant, thereby increasing the likelihood of correctly matching a query descriptor. We consistently improve the accuracy over local-only systems and achieve performance close to hierarchical methods while halving memory requirements. Extensive experiments using various state-of-the-art local and global descriptors across four different datasets demonstrate the effectiveness of our approach. For the first time, our approach enables direct matching algorithms to benefit from global descriptors while maintaining memory efficiency.
+
+![image](https://github.com/user-attachments/assets/79325260-52eb-491c-adcf-e661b7394cce)
+
+</details>
+
+[📃 arXiv:2408](https://arxiv.org/pdf/2408.12037) | [⌨️ Code] | [🌐 Project Page]
+
+#### <summary>Visual Localization in 3D Maps: Comparing Point Cloud, Mesh, and NeRF Representations
+Authors: intong Zhang, Yifu Tao, Jiarong Lin, Fu Zhang, Maurice Fallon
+<details span>
+<summary><b>Abstract</b></summary>
+This paper introduces and assesses a cross-modal global visual localization system that can localize camera images within a color 3D map representation built using both visual and lidar sensing. We present three different state-of-the-art methods for creating the color 3D maps: point clouds, meshes, and neural radiance fields (NeRF). Our system constructs a database of synthetic RGB and depth image pairs from these representations. This database serves as the basis for global localization. We present an automatic approach that builds this database by synthesizing novel images of the scene and exploiting the 3D structure encoded in the different representations. Next, we present a global localization system that relies on the synthetic image database to accurately estimate the 6 DoF camera poses of monocular query images. Our localization approach relies on different learning-based global descriptors and feature detectors which enable robust image retrieval and matching despite the domain gap between (real) query camera images and the synthetic database images. We assess the system's performance through extensive real-world experiments in both indoor and outdoor settings, in order to evaluate the effectiveness of each map representation and the benefits against traditional structure-from-motion localization approaches. Our results show that all three map representations can achieve consistent localization success rates of 55% and higher across various environments. NeRF synthesized images show superior performance, localizing query images at an average success rate of 72%. Furthermore, we demonstrate that our synthesized database enables global localization even when the map creation data and the localization sequence are captured when travelling in opposite directions. Our system, operating in real-time on a mobile laptop equipped with a GPU, achieves a processing rate of 1Hz.
+
+![image](https://github.com/user-attachments/assets/4fb70b48-fea4-4acd-981a-f991fd363ae9)
+
+</details>
+
+[📃 arXiv:2408](https://arxiv.org/pdf/2408.11966) | [⌨️ Code] | [🌐 Project Page]
 
 <br>
 <br>
+
 
 
 ## RetrievalMatching
@@ -269,4 +293,4 @@ Authors:
 
 </details>
 
-[📃 arXiv:2407] | [⌨️ Code] | [🌐 Project Page]
+[📃 arXiv:2408] | [⌨️ Code] | [🌐 Project Page]
