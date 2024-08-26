@@ -15,6 +15,44 @@ Training a Neural Radiance Field (NeRF) without pre-computed camera poses is cha
 
 [📃 arXiv:2212](https://arxiv.org/pdf/2212.07388) | [⌨️ Code](https://github.com/ActiveVisionLab/nope-nerf/) | [🌐 Project Page](https://nope-nerf.active.vision/)
 
+#### <summary>CROSSFIRE: Camera Relocalization On Self-Supervised Features from an Implicit Representation
+Authors: Arthur Moreau, Nathan Piasco, Moussab Bennehar, Dzmitry Tsishkou, Bogdan Stanciulescu, Arnaud de La Fortelle
+<details span>
+<summary><b>Abstract</b></summary>
+Beyond novel view synthesis, Neural Radiance Fields are useful for applications that interact with the real world. In this paper, we use them as an implicit map of a given scene and propose a camera relocalization algorithm tailored for this representation. The proposed method enables to compute in real-time the precise position of a device using a single RGB camera, during its navigation. In contrast with previous work, we do not rely on pose regression or photometric alignment but rather use dense local features obtained through volumetric rendering which are specialized on the scene with a self-supervised objective. As a result, our algorithm is more accurate than competitors, able to operate in dynamic outdoor environments with changing lightning conditions and can be readily integrated in any volumetric neural renderer.
+
+![image](https://github.com/user-attachments/assets/39ccd9a1-690a-492f-878a-2b6a9dd4f4dc)
+
+</details>
+
+[📃 arXiv:2303](https://arxiv.org/pdf/2303.04869) | [⌨️ Code] | [🌐 Project Page]
+
+#### <summary>Neural Refinement for Absolute Pose Regression with Feature Synthesis
+Authors: Shuai Chen, Yash Bhalgat, Xinghui Li, Jiawang Bian, Kejie Li, Zirui Wang, Victor Adrian Prisacariu
+<details span>
+<summary><b>Abstract</b></summary>
+Absolute Pose Regression (APR) methods use deep neural networks to directly regress camera poses from RGB images. However, the predominant APR architectures only rely on 2D operations during inference, resulting in limited accuracy of pose estimation due to the lack of 3D geometry constraints or priors. In this work, we propose a test-time refinement pipeline that leverages implicit geometric constraints using a robust feature field to enhance the ability of APR methods to use 3D information during inference. We also introduce a novel Neural Feature Synthesizer (NeFeS) model, which encodes 3D geometric features during training and directly renders dense novel view features at test time to refine APR methods. To enhance the robustness of our model, we introduce a feature fusion module and a progressive training strategy. Our proposed method achieves state-of-the-art single-image APR accuracy on indoor and outdoor datasets.
+
+![image](https://github.com/user-attachments/assets/08a5c8f6-77c8-4df8-8fca-bf7cd4a7f0f3)
+
+</details>
+
+[📃 arXiv:2303](https://arxiv.org/pdf/2303.10087) | [⌨️ Code](https://github.com/ActiveVisionLab/NeFeS) | [🌐 Project Page]
+
+
+#### <summary>NeRF-Loc: Visual Localization with Conditional Neural Radiance Field
+Authors: Jianlin Liu, Qiang Nie, Yong Liu, Chengjie Wang
+<details span>
+<summary><b>Abstract</b></summary>
+We propose a novel visual re-localization method based on direct matching between the implicit 3D descriptors and the 2D image with transformer. A conditional neural radiance field(NeRF) is chosen as the 3D scene representation in our pipeline, which supports continuous 3D descriptors generation and neural rendering. By unifying the feature matching and the scene coordinate regression to the same framework, our model learns both generalizable knowledge and scene prior respectively during two training stages. Furthermore, to improve the localization robustness when domain gap exists between training and testing phases, we propose an appearance adaptation layer to explicitly align styles between the 3D model and the query image. Experiments show that our method achieves higher localization accuracy than other learning-based approaches on multiple benchmarks.
+
+![image](https://github.com/user-attachments/assets/f0b3a9e3-fa19-4d07-89fe-3208e1ee80bd)
+
+</details>
+
+[📃 arXiv:2304](https://arxiv.org/pdf/2304.07979) | [⌨️ Code](https://github.com/JenningsL/nerf-loc) | [🌐 Project Page]
+
+
 
 #### <summary>Accelerated Coordinate Encoding: Learning to Relocalize in Minutes using RGB and Poses
 Authors: Eric Brachmann, Tommaso Cavallari, Victor Adrian Prisacariu
@@ -59,6 +97,45 @@ This study addresses the challenge of performing visual localization in demandin
 [📃 arXiv:2402](https://arxiv.org/pdf/2402.08359) | [⌨️ Code](https://github.com/TruongKhang/DeViLoc?tab=readme-ov-file) | [🌐 Project Page]
 
 
+#### <summary>The NeRFect Match: Exploring NeRF Features for Visual Localization
+Authors: Qunjie Zhou, Maxim Maximov, Or Litany, Laura Leal-Taixé
+<details span>
+<summary><b>Abstract</b></summary>
+In this work, we propose the use of Neural Radiance Fields (NeRF) as a scene representation for visual localization. Recently, NeRF has been employed to enhance pose regression and scene coordinate regression models by augmenting the training database, providing auxiliary supervision through rendered images, or serving as an iterative refinement module. We extend its recognized advantages -- its ability to provide a compact scene representation with realistic appearances and accurate geometry -- by exploring the potential of NeRF's internal features in establishing precise 2D-3D matches for localization. To this end, we conduct a comprehensive examination of NeRF's implicit knowledge, acquired through view synthesis, for matching under various conditions. This includes exploring different matching network architectures, extracting encoder features at multiple layers, and varying training configurations. Significantly, we introduce NeRFMatch, an advanced 2D-3D matching function that capitalizes on the internal knowledge of NeRF learned via view synthesis. Our evaluation of NeRFMatch on standard localization benchmarks, within a structure-based pipeline, sets a new state-of-the-art for localization performance on Cambridge Landmarks.
+
+![image](https://github.com/user-attachments/assets/1a12c49b-6f5a-40de-84f8-fa6523fb6a4e)
+
+
+</details>
+
+[📃 arXiv:2403](https://arxiv.org/pdf/2403.09577) | [⌨️ Code] | [🌐 Project Page](https://nerfmatch.github.io/)
+
+#### <summary>3DGS-ReLoc: 3D Gaussian Splatting for Map Representation and Visual ReLocalization
+Authors: Peng Jiang, Gaurav Pandey, Srikanth Saripalli
+<details span>
+<summary><b>Abstract</b></summary>
+This paper presents a novel system designed for 3D mapping and visual relocalization using 3D Gaussian Splatting. Our proposed method uses LiDAR and camera data to create accurate and visually plausible representations of the environment. By leveraging LiDAR data to initiate the training of the 3D Gaussian Splatting map, our system constructs maps that are both detailed and geometrically accurate. To mitigate excessive GPU memory usage and facilitate rapid spatial queries, we employ a combination of a 2D voxel map and a KD-tree. This preparation makes our method well-suited for visual localization tasks, enabling efficient identification of correspondences between the query image and the rendered image from the Gaussian Splatting map via normalized cross-correlation (NCC). Additionally, we refine the camera pose of the query image using feature-based matching and the Perspective-n-Point (PnP) technique. The effectiveness, adaptability, and precision of our system are demonstrated through extensive evaluation on the KITTI360 dataset.
+
+![image](https://github.com/user-attachments/assets/69d9c355-caff-45ca-bb59-74f1eb72dcca)
+
+
+</details>
+
+[📃 arXiv:2403](https://arxiv.org/pdf/2403.11367v1) | [⌨️ Code] | [🌐 Project Page]
+
+
+#### <summary>Learning Neural Volumetric Pose Features for Camera Localization
+Authors: Jingyu Lin, Jiaqi Gu, Bojian Wu, Lubin Fan, Renjie Chen, Ligang Liu, Jieping Ye
+<details span>
+<summary><b>Abstract</b></summary>
+We introduce a novel neural volumetric pose feature, termed PoseMap, designed to enhance camera localization by encapsulating the information between images and the associated camera poses. Our framework leverages an Absolute Pose Regression (APR) architecture, together with an augmented NeRF module. This integration not only facilitates the generation of novel views to enrich the training dataset but also enables the learning of effective pose features. Additionally, we extend our architecture for self-supervised online alignment, allowing our method to be used and fine-tuned for unlabelled images within a unified framework. Experiments demonstrate that our method achieves 14.28% and 20.51% performance gain on average in indoor and outdoor benchmark scenes, outperforming existing APR methods with state-of-the-art accuracy.
+
+![image](https://github.com/user-attachments/assets/634a0dcd-a127-4d5d-8107-a395199ca1d7)
+
+</details>
+
+[📃 arXiv:2403](https://arxiv.org/pdf/2403.12800) | [⌨️ Code] | [🌐 Project Page](https://gujiaqivadin.github.io/posemap/)
+
 
 #### <summary>Map-Relative Pose Regression for Visual Re-Localization
 Authors: Shuai Chen, Tommaso Cavallari, Victor Adrian Prisacariu, Eric Brachmann
@@ -74,6 +151,19 @@ Pose regression networks predict the camera pose of a query image relative to a 
 [📃 arXiv:2404](https://arxiv.org/pdf/2404.09884) | [⌨️ Code](https://github.com/nianticlabs/marepo) | [🌐 Project Page](https://nianticlabs.github.io/marepo/)
 
 
+#### <summary>Generative Lifting of Multiview to 3D from Unknown Pose: Wrapping NeRF inside Diffusion
+Authors: Xin Yuan, Rana Hanocka, Michael Maire
+<details span>
+<summary><b>Abstract</b></summary>
+We cast multiview reconstruction from unknown pose as a generative modeling problem. From a collection of unannotated 2D images of a scene, our approach simultaneously learns both a network to predict camera pose from 2D image input, as well as the parameters of a Neural Radiance Field (NeRF) for the 3D scene. To drive learning, we wrap both the pose prediction network and NeRF inside a Denoising Diffusion Probabilistic Model (DDPM) and train the system via the standard denoising objective. Our framework requires the system accomplish the task of denoising an input 2D image by predicting its pose and rendering the NeRF from that pose. Learning to denoise thus forces the system to concurrently learn the underlying 3D NeRF representation and a mapping from images to camera extrinsic parameters. To facilitate the latter, we design a custom network architecture to represent pose as a distribution, granting implicit capacity for discovering view correspondences when trained end-to-end for denoising alone. This technique allows our system to successfully build NeRFs, without pose knowledge, for challenging scenes where competing methods fail. At the conclusion of training, our learned NeRF can be extracted and used as a 3D scene model; our full system can be used to sample novel camera poses and generate novel-view images.
+
+![image](https://github.com/PAU1G3ORGE/AwesomeGaussian/assets/167790336/dff892ae-98e8-456b-b9ea-554d05c1be3e)
+
+
+</details>
+
+[📃 arXiv:2406](https://arxiv.org/pdf/2406.06972) | [⌨️ Code] | [🌐 Project Page]
+
 #### <summary>Hybrid Structure-from-Motion and Camera Relocalization for Enhanced Egocentric Localization
 Authors: Jinjie Mai, Abdullah Hamdi, Silvio Giancola, Chen Zhao, Bernard Ghanem
 <details span>
@@ -88,31 +178,6 @@ We built our pipeline EgoLoc-v1, mainly inspired by EgoLoc. We propose a model e
 [📃 arXiv:2407](https://arxiv.org/pdf/2407.08023) | [⌨️ Code](https://github.com/Wayne-Mai/egoloc_v1) | [🌐 Project Page]
 
 
-#### <summary>3DGS-ReLoc: 3D Gaussian Splatting for Map Representation and Visual ReLocalization
-Authors: Peng Jiang, Gaurav Pandey, Srikanth Saripalli
-<details span>
-<summary><b>Abstract</b></summary>
-This paper presents a novel system designed for 3D mapping and visual relocalization using 3D Gaussian Splatting. Our proposed method uses LiDAR and camera data to create accurate and visually plausible representations of the environment. By leveraging LiDAR data to initiate the training of the 3D Gaussian Splatting map, our system constructs maps that are both detailed and geometrically accurate. To mitigate excessive GPU memory usage and facilitate rapid spatial queries, we employ a combination of a 2D voxel map and a KD-tree. This preparation makes our method well-suited for visual localization tasks, enabling efficient identification of correspondences between the query image and the rendered image from the Gaussian Splatting map via normalized cross-correlation (NCC). Additionally, we refine the camera pose of the query image using feature-based matching and the Perspective-n-Point (PnP) technique. The effectiveness, adaptability, and precision of our system are demonstrated through extensive evaluation on the KITTI360 dataset.
-
-![image](https://github.com/user-attachments/assets/69d9c355-caff-45ca-bb59-74f1eb72dcca)
-
-
-</details>
-
-[📃 arXiv:2403](https://arxiv.org/pdf/2403.11367v1) | [⌨️ Code] | [🌐 Project Page]
-
-#### <summary>Generative Lifting of Multiview to 3D from Unknown Pose: Wrapping NeRF inside Diffusion
-Authors: Xin Yuan, Rana Hanocka, Michael Maire
-<details span>
-<summary><b>Abstract</b></summary>
-We cast multiview reconstruction from unknown pose as a generative modeling problem. From a collection of unannotated 2D images of a scene, our approach simultaneously learns both a network to predict camera pose from 2D image input, as well as the parameters of a Neural Radiance Field (NeRF) for the 3D scene. To drive learning, we wrap both the pose prediction network and NeRF inside a Denoising Diffusion Probabilistic Model (DDPM) and train the system via the standard denoising objective. Our framework requires the system accomplish the task of denoising an input 2D image by predicting its pose and rendering the NeRF from that pose. Learning to denoise thus forces the system to concurrently learn the underlying 3D NeRF representation and a mapping from images to camera extrinsic parameters. To facilitate the latter, we design a custom network architecture to represent pose as a distribution, granting implicit capacity for discovering view correspondences when trained end-to-end for denoising alone. This technique allows our system to successfully build NeRFs, without pose knowledge, for challenging scenes where competing methods fail. At the conclusion of training, our learned NeRF can be extracted and used as a 3D scene model; our full system can be used to sample novel camera poses and generate novel-view images.
-
-![image](https://github.com/PAU1G3ORGE/AwesomeGaussian/assets/167790336/dff892ae-98e8-456b-b9ea-554d05c1be3e)
-
-
-</details>
-
-[📃 arXiv:2406](https://arxiv.org/pdf/2406.06972) | [⌨️ Code] | [🌐 Project Page]
 
 
 #### <summary>Differentiable Product Quantization for Memory Efficient Camera Relocalization
