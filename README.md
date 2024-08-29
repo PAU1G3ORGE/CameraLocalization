@@ -334,6 +334,24 @@ Camera localization methods based on retrieval, local feature matching, and 3D s
 <br>
 <br>
 
+## Others
+
+
+#### <summary>Guiding Local Feature Matching with Surface Curvature
+>  *Curvature Extractor*
+
+Authors: Shuzhe Wang, Juho Kannala, Marc Pollefeys, Daniel Barath
+<details span>
+<summary><b>Abstract</b></summary>
+We propose a new method, named curvature similarity extractor (CSE), for improving local feature matching across images. CSE calculates the curvature of the local 3D surface patch for each detected feature point in a viewpoint-invariant manner via fitting quadrics to predicted monocular depth maps. This curvature is then leveraged as an additional signal in feature matching with off-the-shelf matchers like SuperGlue and LoFTR. Additionally, CSE enables end-to-end joint training by connecting the matcher and depth predictor networks. Our experiments demonstrate on large-scale real-world datasets that CSE continuously improves the accuracy of state-of-the-art methods. Fine-tuning the depth prediction network further enhances the accuracy. The proposed approach achieves state-of-the-art results on the ScanNet dataset, showcasing the effectiveness of incorporating 3D geometric information into feature matching.
+
+![image](https://github.com/user-attachments/assets/a83eaa42-d9b1-4162-9cc4-a73746dec12f)
+
+</details>
+
+[📃 arXiv:xxxx](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Guiding_Local_Feature_Matching_with_Surface_Curvature_ICCV_2023_paper.pdf) | [⌨️ Code] | [🌐 Project Page]
+
+
 #### <summary>
 Authors: 
 <details span>
