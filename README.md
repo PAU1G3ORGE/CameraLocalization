@@ -352,6 +352,9 @@ We propose a new method, named curvature similarity extractor (CSE), for improvi
 [📃 arXiv:xxxx](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Guiding_Local_Feature_Matching_with_Surface_Curvature_ICCV_2023_paper.pdf) | [⌨️ Code] | [🌐 Project Page]
 
 
+<br>
+<br>
+
 #### <summary>
 Authors: 
 <details span>
