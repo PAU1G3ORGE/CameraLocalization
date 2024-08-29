@@ -338,7 +338,7 @@ Camera localization methods based on retrieval, local feature matching, and 3D s
 
 
 #### <summary>Guiding Local Feature Matching with Surface Curvature
->  *Curvature Extractor*
+> *Curvature Extractor*
 
 Authors: Shuzhe Wang, Juho Kannala, Marc Pollefeys, Daniel Barath
 <details span>
