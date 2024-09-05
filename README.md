@@ -165,6 +165,21 @@ Pose regression networks predict the camera pose of a query image relative to a 
 
 [📃 arXiv:2404](https://arxiv.org/pdf/2404.09884) | [⌨️ Code](https://github.com/nianticlabs/marepo) | [🌐 Project Page](https://nianticlabs.github.io/marepo/)
 
+#### <summary>GLACE: Global Local Accelerated Coordinate Encoding
+> *Research [38] shows that the final layer has an important effect on the prior of CNNs that regress spatial positions, if the direct output of the last linear layer is a linear combination of bases in its weight*
+
+Authors: Fangjinhua Wang, Xudong Jiang, Silvano Galliani, Christoph Vogel, Marc Pollefeys
+<details span>
+<summary><b>Abstract</b></summary>
+Scene coordinate regression (SCR) methods are a family of visual localization methods that directly regress 2D-3D matches for camera pose estimation. They are effective in small-scale scenes but face significant challenges in large-scale scenes that are further amplified in the absence of ground truth 3D point clouds for supervision. Here, the model can only rely on reprojection constraints and needs to implicitly triangulate the points. The challenges stem from a fundamental dilemma: The network has to be invariant to observations of the same landmark at different viewpoints and lighting conditions, etc., but at the same time discriminate unrelated but similar observations. The latter becomes more relevant and severe in larger scenes. In this work, we tackle this problem by introducing the concept of co-visibility to the network. We propose GLACE, which integrates pre-trained global and local encodings and enables SCR to scale to large scenes with only a single small-sized network. Specifically, we propose a novel feature diffusion technique that implicitly groups the reprojection constraints with co-visibility and avoids overfitting to trivial solutions. Additionally, our position decoder parameterizes the output positions for large-scale scenes more effectively. Without using 3D models or depth maps for supervision, our method achieves state-of-the-art results on large-scale scenes with a low-map-size model. On Cambridge landmarks, with a single model, we achieve 17% lower median position error than Poker, the ensemble variant of the state-of-the-art SCR method ACE.
+
+![image](https://github.com/user-attachments/assets/740abc52-a696-4957-8ff8-f3e99b32355b)
+
+</details>
+
+[📃 arXiv:2406](https://arxiv.org/pdf/2406.04340) | [⌨️ Code](https://github.com/cvg/glace?tab=readme-ov-file) | [🌐 Project Page](https://xjiangan.github.io/glace)
+
+
 
 
 #### <summary>Hybrid Structure-from-Motion and Camera Relocalization for Enhanced Egocentric Localization
