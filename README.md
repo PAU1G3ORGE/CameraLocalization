@@ -96,6 +96,21 @@ This study addresses the challenge of performing visual localization in demandin
 [📃 arXiv:2402](https://arxiv.org/pdf/2402.08359) | [⌨️ Code](https://github.com/TruongKhang/DeViLoc?tab=readme-ov-file) | [🌐 Project Page]
 
 
+#### <summary>HR-APR: APR-agnostic Framework with Uncertainty Estimation and Hierarchical Refinement for Camera Relocalisation
+> *all three APR models exhibit more accurate predictions for test queries with viewpoints similar to those in the training set, compared to queries that fall outside the coverage of the training data*
+
+Authors: Changkun Liu, Shuai Chen, Yukun Zhao, Huajian Huang, Victor Prisacariu, Tristan Braud
+<details span>
+<summary><b>Abstract</b></summary>
+Absolute Pose Regressors (APRs) directly estimate camera poses from monocular images, but their accuracy is unstable for different queries. Uncertainty-aware APRs provide uncertainty information on the estimated pose, alleviating the impact of these unreliable predictions. However, existing uncertainty modelling techniques are often coupled with a specific APR architecture, resulting in suboptimal performance compared to state-of-the-art (SOTA) APR methods. This work introduces a novel APR-agnostic framework, HR-APR, that formulates uncertainty estimation as cosine similarity estimation between the query and database features. It does not rely on or affect APR network architecture, which is flexible and computationally efficient. In addition, we take advantage of the uncertainty for pose refinement to enhance the performance of APR. The extensive experiments demonstrate the effectiveness of our framework, reducing 27.4\% and 15.2\% of computational overhead on the 7Scenes and Cambridge Landmarks datasets while maintaining the SOTA accuracy in single-image APRs.
+
+![image](https://github.com/user-attachments/assets/f4d002cb-3794-4daa-bfbe-a462729f98e2)
+
+</details>
+
+[📃 arXiv:2402](https://arxiv.org/pdf/2402.14371) | [⌨️ Code](https://github.com/lck666666/HR-APR) | [🌐 Project Page](https://lck666666.github.io/research/HR-APR/index.html)
+
+
 #### <summary>The NeRFect Match: Exploring NeRF Features for Visual Localization
 Authors: Qunjie Zhou, Maxim Maximov, Or Litany, Laura Leal-Taixé
 <details span>
@@ -258,7 +273,8 @@ Location information is pivotal for the automation and intelligence of terminal 
 
 [📃 arXiv:2408](https://arxiv.org/pdf/2408.09680) | [⌨️ Code] | [🌐 Project Page]
 
-#### <summary>ADen: Adaptive Density Representations for Sparse-view Camera Pose Estimation (ECCV24 oral
+#### <summary>ADen: Adaptive Density Representations for Sparse-view Camera Pose Estimation
+> *ECCV24 oral*
 
 Authors: Hao Tang, Weiyao Wang, Pierre Gleize, Matt Feiszli
 <details span>
