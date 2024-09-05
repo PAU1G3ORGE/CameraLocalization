@@ -165,6 +165,20 @@ Pose regression networks predict the camera pose of a query image relative to a 
 
 [📃 arXiv:2404](https://arxiv.org/pdf/2404.09884) | [⌨️ Code](https://github.com/nianticlabs/marepo) | [🌐 Project Page](https://nianticlabs.github.io/marepo/)
 
+#### <summary>Scene Coordinate Reconstruction: Posing of Image Collections via Incremental Learning of a Relocalizer
+Authors: Eric Brachmann, Jamie Wynn, Shuai Chen, Tommaso Cavallari, Áron Monszpart, Daniyar Turmukhambetov, Victor Adrian Prisacariu
+<details span>
+<summary><b>Abstract</b></summary>
+We address the task of estimating camera parameters from a set of images depicting a scene. Popular feature-based structure-from-motion (SfM) tools solve this task by incremental reconstruction: they repeat triangulation of sparse 3D points and registration of more camera views to the sparse point cloud. We re-interpret incremental structure-from-motion as an iterated application and refinement of a visual relocalizer, that is, of a method that registers new views to the current state of the reconstruction. This perspective allows us to investigate alternative visual relocalizers that are not rooted in local feature matching. We show that scene coordinate regression, a learning-based relocalization approach, allows us to build implicit, neural scene representations from unposed images. Different from other learning-based reconstruction methods, we do not require pose priors nor sequential inputs, and we optimize efficiently over thousands of images. In many cases, our method, ACE0, estimates camera poses with an accuracy close to feature-based SfM, as demonstrated by novel view synthesis.
+
+![image](https://github.com/user-attachments/assets/343a1852-73ec-46d1-a2db-adc94bde075d)
+
+</details>
+
+[📃 arXiv:2404](https://arxiv.org/pdf/2404.14351) | [⌨️ Code](https://github.com/nianticlabs/acezero?tab=readme-ov-file) | [🌐 Project Page](https://nianticlabs.github.io/acezero/)
+
+
+
 #### <summary>GLACE: Global Local Accelerated Coordinate Encoding
 > *Research [38] shows that the final layer has an important effect on the prior of CNNs that regress spatial positions, if the direct output of the last linear layer is a linear combination of bases in its weight*
 
