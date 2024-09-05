@@ -28,6 +28,8 @@ Beyond novel view synthesis, Neural Radiance Fields are useful for applications 
 [📃 arXiv:2303](https://arxiv.org/pdf/2303.04869) | [⌨️ Code] | [🌐 Project Page]
 
 #### <summary>Neural Refinement for Absolute Pose Regression with Feature Synthesis
+> *However, since our NeFeS outputs both colors and features simultaneously, we find this approach perturbs the feature output values and causes instability. ACT origial from NeRF-W*
+
 Authors: Shuai Chen, Yash Bhalgat, Xinghui Li, Jiawang Bian, Kejie Li, Zirui Wang, Victor Adrian Prisacariu
 <details span>
 <summary><b>Abstract</b></summary>
