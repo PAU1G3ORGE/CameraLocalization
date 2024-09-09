@@ -370,6 +370,8 @@ This paper introduces and assesses a cross-modal global visual localization syst
 
 
 #### <summary>Reprojection Errors as Prompts for Efficient Scene Coordinate Regression
+>*It is observed that regions with low reprojection errors tend to have relatively higher inlier ratios, indicating a greater impact on the estimated camera poses*
+
 Authors: Ting-Ru Liu, Hsuan-Kung Yang, Jou-Min Liu, Chun-Wei Huang, Tsung-Chih Chiang, Quan Kong, Norimasa Kobori, Chun-Yi Lee
 <details span>
 <summary><b>Abstract</b></summary>
