@@ -424,7 +424,7 @@ We propose a new method, named curvature similarity extractor (CSE), for improvi
 
 </details>
 
-[📃 arXiv:xxxx](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Guiding_Local_Feature_Matching_with_Surface_Curvature_ICCV_2023_paper.pdf) | [⌨️ Code] | [🌐 Project Page]
+[📃 arXiv:xxxx](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Guiding_Local_Feature_Matching_with_Surface_Curvature_ICCV_2023_paper.pdf) | [⌨️ Code](https://github.com/AaltoVision/surface-curvature-estimator/) | [🌐 Project Page]
 
 #### <summary>ConDense: Consistent 2D/3D Pre-training for Dense and Sparse Features from Multi-View Images
 >*Due to the biased and scarcer nature of the existing multi-view image datasets, if we optimize the networks based only on this 2D-3D consistency loss, the feature quality may degrade due to trivial solutions and biased data distribution.*
