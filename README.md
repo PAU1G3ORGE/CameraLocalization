@@ -443,6 +443,22 @@ To advance the state of the art in the creation of 3D foundation models, this pa
 
 
 
+#### <summary>GeoCalib: Learning Single-image Calibration with Geometric Optimization
+>*estimates the camera intrinsics and gravity direction from a single image by combining geometric optimization with deep learning*
+
+Authors: Alexander Veicht, Paul-Edouard Sarlin, Philipp Lindenberger, Marc Pollefeys
+<details span>
+<summary><b>Abstract</b></summary>
+From a single image, visual cues can help deduce intrinsic and extrinsic camera parameters like the focal length and the gravity direction. This single-image calibration can benefit various downstream applications like image editing and 3D mapping. Current approaches to this problem are based on either classical geometry with lines and vanishing points or on deep neural networks trained end-to-end. The learned approaches are more robust but struggle to generalize to new environments and are less accurate than their classical counterparts. We hypothesize that they lack the constraints that 3D geometry provides. In this work, we introduce GeoCalib, a deep neural network that leverages universal rules of 3D geometry through an optimization process. GeoCalib is trained end-to-end to estimate camera parameters and learns to find useful visual cues from the data. Experiments on various benchmarks show that GeoCalib is more robust and more accurate than existing classical and learned approaches. Its internal optimization estimates uncertainties, which help flag failure cases and benefit downstream applications like visual localization.
+
+![image](https://github.com/user-attachments/assets/c93debc3-9e60-49e1-b510-3af65f44e90c)
+
+</details>
+
+[📃 arXiv:2409](https://arxiv.org/pdf/2409.06704) | [⌨️ Code](https://github.com/cvg/GeoCalib) | [🌐 Project Page](https://veichta-geocalib.hf.space/)
+
+
+
 <br>
 <br>
 
@@ -456,4 +472,4 @@ Authors:
 
 </details>
 
-[📃 arXiv:2408] | [⌨️ Code] | [🌐 Project Page]
+[📃 arXiv:2409] | [⌨️ Code] | [🌐 Project Page]
