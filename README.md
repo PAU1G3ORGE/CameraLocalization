@@ -383,6 +383,23 @@ Scene coordinate regression (SCR) methods have emerged as a promising area of re
 
 [📃 arXiv:2409](https://arxiv.org/pdf/2409.04178) | [⌨️ Code] | [🌐 Project Page](https://tingru0203.github.io/egfs/)
 
+
+#### <summary>FaVoR: Features via Voxel Rendering for Camera Relocalization
+>*voxel+nerf feature for camera relocalization*
+
+Authors: Vincenzo Polizzi, Marco Cannici, Davide Scaramuzza, Jonathan Kelly
+<details span>
+<summary><b>Abstract</b></summary>
+Camera relocalization methods range from dense image alignment to direct camera pose regression from a query image. Among these, sparse feature matching stands out as an efficient, versatile, and generally lightweight approach with numerous applications. However, feature-based methods often struggle with significant viewpoint and appearance changes, leading to matching failures and inaccurate pose estimates. To overcome this limitation, we propose a novel approach that leverages a globally sparse yet locally dense 3D representation of 2D features. By tracking and triangulating landmarks over a sequence of frames, we construct a sparse voxel map optimized to render image patch descriptors observed during tracking. Given an initial pose estimate, we first synthesize descriptors from the voxels using volumetric rendering and then perform feature matching to estimate the camera pose. This methodology enables the generation of descriptors for unseen views, enhancing robustness to view changes. We extensively evaluate our method on the 7-Scenes and Cambridge Landmarks datasets. Our results show that our method significantly outperforms existing state-of-the-art feature representation techniques in indoor environments, achieving up to a 39% improvement in median translation error. Additionally, our approach yields comparable results to other methods for outdoor scenarios while maintaining lower memory and computational costs.
+
+![image](https://github.com/user-attachments/assets/6051768f-0201-417f-8560-141c9fc95a75)
+
+</details>
+
+[📃 arXiv:2409](https://arxiv.org/pdf/2409.07571) | [⌨️ Code] | [🌐 Project Page]
+
+
+
 <br>
 <br>
 
