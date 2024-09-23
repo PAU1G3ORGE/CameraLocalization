@@ -421,6 +421,19 @@ Camera localization methods based on retrieval, local feature matching, and 3D s
 
 [📃 arXiv:2401](https://arxiv.org/pdf/2401.18083) | [⌨️ Code](https://github.com/microsoft/SceneLandmarkLocalization) | [🌐 Project Page]
 
+#### <summary>Causal Transformer for Fusion and Pose Estimation in Deep Visual Inertial Odometry
+>*exploits Riemannian manifold optimization techniques for rotations, enabling the network to learn the rotations better than Euler angles and quaternions used in previous works*
+
+Authors: Yunus Bilge Kurt, Ahmet Akman, A. Aydın Alatan
+<details span>
+<summary><b>Abstract</b></summary>
+In recent years, transformer-based architectures become the de facto standard for sequence modeling in deep learning frameworks. Inspired by the successful examples, we propose a causal visual-inertial fusion transformer (VIFT) for pose estimation in deep visual-inertial odometry. This study aims to improve pose estimation accuracy by leveraging the attention mechanisms in transformers, which better utilize historical data compared to the recurrent neural network (RNN) based methods seen in recent methods. Transformers typically require large-scale data for training. To address this issue, we utilize inductive biases for deep VIO networks. Since latent visual-inertial feature vectors encompass essential information for pose estimation, we employ transformers to refine pose estimates by updating latent vectors temporally. Our study also examines the impact of data imbalance and rotation learning methods in supervised end-to-end learning of visual inertial odometry by utilizing specialized gradients in backpropagation for the elements of SE(3) group. The proposed method is end-to-end trainable and requires only a monocular camera and IMU during inference. Experimental results demonstrate that VIFT increases the accuracy of monocular VIO networks, achieving state-of-the-art results when compared to previous methods on the KITTI dataset.
+
+![image](https://github.com/user-attachments/assets/1e414015-848d-4806-86a3-633a4c10437e)
+
+</details>
+
+[📃 arXiv:2409](https://arxiv.org/pdf/2409.08769) | [⌨️ Code](https://arxiv.org/pdf/2409.08769) | [🌐 Project Page]
 
 
 <br>
