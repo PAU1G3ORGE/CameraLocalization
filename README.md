@@ -435,6 +435,22 @@ In recent years, transformer-based architectures become the de facto standard fo
 
 [📃 arXiv:2409](https://arxiv.org/pdf/2409.08769) | [⌨️ Code](https://arxiv.org/pdf/2409.08769) | [🌐 Project Page]
 
+#### <summary>SplatLoc: 3D Gaussian Splatting-based Visual Localization for Augmented Reality
+> *Visual localization plays an important role in the applications of Augmented Reality (AR), which enable AR devices to obtain their 6-DoF pose in the pre-build map in order to render virtual content in real scenes*
+
+Authors: Hongjia Zhai, Xiyu Zhang, Boming Zhao, Hai Li, Yijia He, Zhaopeng Cui, Hujun Bao, Guofeng Zhang
+<details span>
+<summary><b>Abstract</b></summary>
+Visual localization plays an important role in the applications of Augmented Reality (AR), which enable AR devices to obtain their 6-DoF pose in the pre-build map in order to render virtual content in real scenes. However, most existing approaches can not perform novel view rendering and require large storage capacities for maps. To overcome these limitations, we propose an efficient visual localization method capable of high-quality rendering with fewer parameters. Specifically, our approach leverages 3D Gaussian primitives as the scene representation. To ensure precise 2D-3D correspondences for pose estimation, we develop an unbiased 3D scene-specific descriptor decoder for Gaussian primitives, distilled from a constructed feature volume. Additionally, we introduce a salient 3D landmark selection algorithm that selects a suitable primitive subset based on the saliency score for localization. We further regularize key Gaussian primitives to prevent anisotropic effects, which also improves localization performance. Extensive experiments on two widely used datasets demonstrate that our method achieves superior or comparable rendering and localization performance to state-of-the-art implicit-based visual localization approaches.
+
+![image](https://github.com/user-attachments/assets/639ebf7c-2ffe-4ba1-bb8d-0f73468e7caf)
+![image](https://github.com/user-attachments/assets/f158b1f3-8853-43bd-b4cf-e7c14aa28de5)
+
+
+</details>
+
+[📃 arXiv:2409](https://arxiv.org/pdf/2409.14067) | [⌨️ Code] | [🌐 Project Page](https://zju3dv.github.io/splatloc/)
+
 
 <br>
 <br>
