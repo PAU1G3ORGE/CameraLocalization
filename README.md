@@ -436,7 +436,7 @@ In recent years, transformer-based architectures become the de facto standard fo
 [📃 arXiv:2409](https://arxiv.org/pdf/2409.08769) | [⌨️ Code](https://arxiv.org/pdf/2409.08769) | [🌐 Project Page]
 
 #### <summary>SplatLoc: 3D Gaussian Splatting-based Visual Localization for Augmented Reality
-> *Visual localization plays an important role in the applications of Augmented Reality (AR), which enable AR devices to obtain their 6-DoF pose in the pre-build map in order to render virtual content in real scenes*
+> *Primitives that were observed from many different viewing directions during the reconstruction are more generalizable and robust for localization*
 
 Authors: Hongjia Zhai, Xiyu Zhang, Boming Zhao, Hai Li, Yijia He, Zhaopeng Cui, Hujun Bao, Guofeng Zhang
 <details span>
