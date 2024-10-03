@@ -503,6 +503,21 @@ From a single image, visual cues can help deduce intrinsic and extrinsic camera 
 
 [📃 arXiv:2409](https://arxiv.org/pdf/2409.06704) | [⌨️ Code](https://github.com/cvg/GeoCalib) | [🌐 Project Page](https://veichta-geocalib.hf.space/)
 
+#### <summary>HGSLoc: 3DGS-based Heuristic Camera Pose Refinement
+>*relation between cam position and means3D?*
+
+
+Authors: Zhongyan Niu, Zhen Tan, Jinpu Zhang, Xueliang Yang, Dewen Hu
+<details span>
+<summary><b>Abstract</b></summary>
+Visual localization refers to the process of determining camera poses and orientation within a known scene representation. This task is often complicated by factors such as illumination changes and variations in viewing angles. In this paper, we propose HGSLoc, a novel lightweight, plug and-play pose optimization framework, which integrates 3D reconstruction with a heuristic refinement strategy to achieve higher pose estimation accuracy. Specifically, we introduce an explicit geometric map for 3D representation and high-fidelity rendering, allowing the generation of high-quality synthesized views to support accurate visual localization. Our method demonstrates a faster rendering speed and higher localization accuracy compared to NeRF-based neural rendering localization approaches. We introduce a heuristic refinement strategy, its efficient optimization capability can quickly locate the target node, while we set the step-level optimization step to enhance the pose accuracy in the scenarios with small errors. With carefully designed heuristic functions, it offers efficient optimization capabilities, enabling rapid error reduction in rough localization estimations. Our method mitigates the dependence on complex neural network models while demonstrating improved robustness against noise and higher localization accuracy in challenging environments, as compared to neural network joint optimization strategies. The optimization framework proposed in this paper introduces novel approaches to visual localization by integrating the advantages of 3D reconstruction and heuristic refinement strategy, which demonstrates strong performance across multiple benchmark datasets, including 7Scenes and DB dataset.
+
+![image](https://github.com/user-attachments/assets/57737f59-eddb-4b37-8fb0-fe2e37b1ba0e)
+
+</details>
+
+[📃 arXiv:2409](https://arxiv.org/pdf/2409.10925) | [⌨️ Code] | [🌐 Project Page]
+
 
 
 <br>
