@@ -399,6 +399,22 @@ Camera relocalization methods range from dense image alignment to direct camera 
 [📃 arXiv:2409](https://arxiv.org/pdf/2409.07571) | [⌨️ Code] | [🌐 Project Page]
 
 
+#### <summary>HGSLoc: 3DGS-based Heuristic Camera Pose Refinement
+>*relation between cam position and means3D?*
+
+
+Authors: Zhongyan Niu, Zhen Tan, Jinpu Zhang, Xueliang Yang, Dewen Hu
+<details span>
+<summary><b>Abstract</b></summary>
+Visual localization refers to the process of determining camera poses and orientation within a known scene representation. This task is often complicated by factors such as illumination changes and variations in viewing angles. In this paper, we propose HGSLoc, a novel lightweight, plug and-play pose optimization framework, which integrates 3D reconstruction with a heuristic refinement strategy to achieve higher pose estimation accuracy. Specifically, we introduce an explicit geometric map for 3D representation and high-fidelity rendering, allowing the generation of high-quality synthesized views to support accurate visual localization. Our method demonstrates a faster rendering speed and higher localization accuracy compared to NeRF-based neural rendering localization approaches. We introduce a heuristic refinement strategy, its efficient optimization capability can quickly locate the target node, while we set the step-level optimization step to enhance the pose accuracy in the scenarios with small errors. With carefully designed heuristic functions, it offers efficient optimization capabilities, enabling rapid error reduction in rough localization estimations. Our method mitigates the dependence on complex neural network models while demonstrating improved robustness against noise and higher localization accuracy in challenging environments, as compared to neural network joint optimization strategies. The optimization framework proposed in this paper introduces novel approaches to visual localization by integrating the advantages of 3D reconstruction and heuristic refinement strategy, which demonstrates strong performance across multiple benchmark datasets, including 7Scenes and DB dataset.
+
+![image](https://github.com/user-attachments/assets/57737f59-eddb-4b37-8fb0-fe2e37b1ba0e)
+
+</details>
+
+[📃 arXiv:2409](https://arxiv.org/pdf/2409.10925) | [⌨️ Code] | [🌐 Project Page]
+
+
 #### <summary>SplatLoc: 3D Gaussian Splatting-based Visual Localization for Augmented Reality
 > *Primitives that were observed from many different viewing directions during the reconstruction are more generalizable and robust for localization*
 
@@ -414,6 +430,9 @@ Visual localization plays an important role in the applications of Augmented Rea
 </details>
 
 [📃 arXiv:2409](https://arxiv.org/pdf/2409.14067) | [⌨️ Code] | [🌐 Project Page](https://zju3dv.github.io/splatloc/)
+
+
+
 
 #### <summary>GSplatLoc: Grounding Keypoint Descriptors into 3D Gaussian Splatting for Improved Visual Localization
 > *similar to GSLoc*
@@ -518,39 +537,13 @@ From a single image, visual cues can help deduce intrinsic and extrinsic camera 
 
 [📃 arXiv:2409](https://arxiv.org/pdf/2409.06704) | [⌨️ Code](https://github.com/cvg/GeoCalib) | [🌐 Project Page](https://veichta-geocalib.hf.space/)
 
-#### <summary>HGSLoc: 3DGS-based Heuristic Camera Pose Refinement
->*relation between cam position and means3D?*
 
 
-Authors: Zhongyan Niu, Zhen Tan, Jinpu Zhang, Xueliang Yang, Dewen Hu
-<details span>
-<summary><b>Abstract</b></summary>
-Visual localization refers to the process of determining camera poses and orientation within a known scene representation. This task is often complicated by factors such as illumination changes and variations in viewing angles. In this paper, we propose HGSLoc, a novel lightweight, plug and-play pose optimization framework, which integrates 3D reconstruction with a heuristic refinement strategy to achieve higher pose estimation accuracy. Specifically, we introduce an explicit geometric map for 3D representation and high-fidelity rendering, allowing the generation of high-quality synthesized views to support accurate visual localization. Our method demonstrates a faster rendering speed and higher localization accuracy compared to NeRF-based neural rendering localization approaches. We introduce a heuristic refinement strategy, its efficient optimization capability can quickly locate the target node, while we set the step-level optimization step to enhance the pose accuracy in the scenarios with small errors. With carefully designed heuristic functions, it offers efficient optimization capabilities, enabling rapid error reduction in rough localization estimations. Our method mitigates the dependence on complex neural network models while demonstrating improved robustness against noise and higher localization accuracy in challenging environments, as compared to neural network joint optimization strategies. The optimization framework proposed in this paper introduces novel approaches to visual localization by integrating the advantages of 3D reconstruction and heuristic refinement strategy, which demonstrates strong performance across multiple benchmark datasets, including 7Scenes and DB dataset.
-
-![image](https://github.com/user-attachments/assets/57737f59-eddb-4b37-8fb0-fe2e37b1ba0e)
-
-</details>
-
-[📃 arXiv:2409](https://arxiv.org/pdf/2409.10925) | [⌨️ Code] | [🌐 Project Page]
-
-
-
-#### <summary>Disentangled Generation and Aggregation for Robust Radiance Fields
-
-Authors: Shihe Shen, Huachen Gao, Wangze Xu, Rui Peng, Luyang Tang, Kaiqiang Xiong, Jianbo Jiao, Ronggang Wang
-<details span>
-<summary><b>Abstract</b></summary>
-The utilization of the triplane-based radiance fields has gained attention in recent years due to its ability to effectively disentangle 3D scenes with a high-quality representation and low computation cost. A key requirement of this method is the precise input of camera poses. However, due to the local update property of the triplane, a similar joint estimation as previous joint pose-NeRF optimization works easily results in local minima. To this end, we propose the Disentangled Triplane Generation module to introduce global feature context and smoothness into triplane learning, which mitigates errors caused by local updating. Then, we propose the Disentangled Plane Aggregation to mitigate the entanglement caused by the common triplane feature aggregation during camera pose updating. In addition, we introduce a two-stage warm-start training strategy to reduce the implicit constraints caused by the triplane generator. Quantitative and qualitative results demonstrate that our proposed method achieves state-of-the-art performance in novel view synthesis with noisy or unknown camera poses, as well as efficient convergence of optimization.
-
-![image](https://github.com/user-attachments/assets/b986ceb9-f672-44f0-9ccb-6145a8d46fe7)
-
-</details>
-
-[📃 arXiv:2409](https://arxiv.org/pdf/2409.15715) | [⌨️ Code] | [🌐 Project Page](https://gaohchen.github.io/DiGARR/)
 
 
 <br>
 <br>
+
 
 #### <summary>
 Authors: 
