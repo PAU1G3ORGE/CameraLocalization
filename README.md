@@ -415,6 +415,21 @@ Visual localization plays an important role in the applications of Augmented Rea
 
 [📃 arXiv:2409](https://arxiv.org/pdf/2409.14067) | [⌨️ Code] | [🌐 Project Page](https://zju3dv.github.io/splatloc/)
 
+#### <summary>GSplatLoc: Grounding Keypoint Descriptors into 3D Gaussian Splatting for Improved Visual Localization
+> *similar to GSLoc*
+
+Authors: Gennady Sidorov, Malik Mohrat, Ksenia Lebedeva, Ruslan Rakhimov, Sergey Kolyubin
+<details span>
+<summary><b>Abstract</b></summary>
+Although various visual localization approaches exist, such as scene coordinate and pose regression, these methods often struggle with high memory consumption or extensive optimization requirements. To address these challenges, we utilize recent advancements in novel view synthesis, particularly 3D Gaussian Splatting (3DGS), to enhance localization. 3DGS allows for the compact encoding of both 3D geometry and scene appearance with its spatial features. Our method leverages the dense description maps produced by XFeat's lightweight keypoint detection and description model. We propose distilling these dense keypoint descriptors into 3DGS to improve the model's spatial understanding, leading to more accurate camera pose predictions through 2D-3D correspondences. After estimating an initial pose, we refine it using a photometric warping loss. Benchmarking on popular indoor and outdoor datasets shows that our approach surpasses state-of-the-art Neural Render Pose (NRP) methods, including NeRFMatch and PNeRFLoc.
+  
+![image](https://github.com/user-attachments/assets/3540f419-99b2-42e4-bc22-6ec3f7fefa07)
+
+</details>
+
+[📃 arXiv:2409](https://arxiv.org/pdf/2409.16502) | [⌨️ Code](https://github.com/haksorus/gsplatloc) | [🌐 Project Page](https://gsplatloc.github.io/)
+
+
 
 
 <br>
