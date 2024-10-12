@@ -567,6 +567,19 @@ Neural Radiance Fields (NeRF) are widely used for novel-view synthesis and have 
 [📃 arXiv:2410](https://arxiv.org/pdf/2410.01647) | [⌨️ Code](https://arxiv.org/pdf/2410.01647) | [🌐 Project Page]
 
 
+#### <summary>MVGS: Multi-view-regulated Gaussian Splatting for Novel View Synthesis
+>*when the discrepancies between each view become large, the extent of 3D Gaussian densification is also enhanced*
+
+Authors: Xiaobiao Du, Yida Wang, Xin Yu
+<details span>
+<summary><b>Abstract</b></summary>
+Recent works in volume rendering, \textit{e.g.} NeRF and 3D Gaussian Splatting (3DGS), significantly advance the rendering quality and efficiency with the help of the learned implicit neural radiance field or 3D Gaussians. Rendering on top of an explicit representation, the vanilla 3DGS and its variants deliver real-time efficiency by optimizing the parametric model with single-view supervision per iteration during training which is adopted from NeRF. Consequently, certain views are overfitted, leading to unsatisfying appearance in novel-view synthesis and imprecise 3D geometries. To solve aforementioned problems, we propose a new 3DGS optimization method embodying four key novel contributions: 1) We transform the conventional single-view training paradigm into a multi-view training strategy. With our proposed multi-view regulation, 3D Gaussian attributes are further optimized without overfitting certain training views. As a general solution, we improve the overall accuracy in a variety of scenarios and different Gaussian variants. 2) Inspired by the benefit introduced by additional views, we further propose a cross-intrinsic guidance scheme, leading to a coarse-to-fine training procedure concerning different resolutions. 3) Built on top of our multi-view regulated training, we further propose a cross-ray densification strategy, densifying more Gaussian kernels in the ray-intersect regions from a selection of views. 4) By further investigating the densification strategy, we found that the effect of densification should be enhanced when certain views are distinct dramatically. As a solution, we propose a novel multi-view augmented densification strategy, where 3D Gaussians are encouraged to get densified to a sufficient number accordingly, resulting in improved reconstruction accuracy.
+
+![image](https://github.com/user-attachments/assets/96d5a43e-ee55-4893-ac2f-28e9b83ae42e)
+
+</details>
+
+[📃 arXiv:2410](https://arxiv.org/pdf/2410.02103) | [⌨️ Code](https://github.com/xiaobiaodu/MVGS) | [🌐 Project Page](https://xiaobiaodu.github.io/mvgs-project/)
 
 
 <br>
