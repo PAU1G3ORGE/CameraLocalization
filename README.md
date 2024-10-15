@@ -582,6 +582,25 @@ Recent works in volume rendering, \textit{e.g.} NeRF and 3D Gaussian Splatting (
 [📃 arXiv:2410](https://arxiv.org/pdf/2410.02103) | [⌨️ Code](https://github.com/xiaobiaodu/MVGS) | [🌐 Project Page](https://xiaobiaodu.github.io/mvgs-project/)
 
 
+
+
+#### <summary>StreetSurfGS: Scalable Urban Street Surface Reconstruction with Planar-based Gaussian Splatting
+>  *SAM for Edge Filtering*
+
+Authors: Xiao Cui, Weicai Ye, Yifan Wang, Guofeng Zhang, Wengang Zhou, Tong He, Houqiang Li
+<details span>
+<summary><b>Abstract</b></summary>
+Reconstructing urban street scenes is crucial due to its vital role in applications such as autonomous driving and urban planning. These scenes are characterized by long and narrow camera trajectories, occlusion, complex object relationships, and data sparsity across multiple scales. Despite recent advancements, existing surface reconstruction methods, which are primarily designed for object-centric scenarios, struggle to adapt effectively to the unique characteristics of street scenes. To address this challenge, we introduce StreetSurfGS, the first method to employ Gaussian Splatting specifically tailored for scalable urban street scene surface reconstruction. StreetSurfGS utilizes a planar-based octree representation and segmented training to reduce memory costs, accommodate unique camera characteristics, and ensure scalability. Additionally, to mitigate depth inaccuracies caused by object overlap, we propose a guided smoothing strategy within regularization to eliminate inaccurate boundary points and outliers. Furthermore, to address sparse views and multi-scale challenges, we use a dual-step matching strategy that leverages adjacent and long-term information. Extensive experiments validate the efficacy of StreetSurfGS in both novel view synthesis and surface reconstruction.
+ 
+![image](https://github.com/user-attachments/assets/bd8aeec0-ad0d-42a2-9fe6-15d58710c1fe)
+
+</details>
+
+[📃 arXiv:2409](https://arxiv.org/pdf/2410.04354) | [⌨️ Code] | [🌐 Project Page]
+
+
+
+
 <br>
 <br>
 
