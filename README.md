@@ -448,6 +448,18 @@ Although various visual localization approaches exist, such as scene coordinate 
 
 [📃 arXiv:2409](https://arxiv.org/pdf/2409.16502) | [⌨️ Code](https://github.com/haksorus/gsplatloc) | [🌐 Project Page](https://gsplatloc.github.io/)
 
+#### <summary>LoGS: Visual Localization via Gaussian Splatting with Fewer Training Images
+
+Authors: Yuzhou Cheng, Jianhao Jiao, Yue Wang, Dimitrios Kanoulas
+<details span>
+<summary><b>Abstract</b></summary>
+Visual localization involves estimating a query image's 6-DoF (degrees of freedom) camera pose, which is a fundamental component in various computer vision and robotic tasks. This paper presents LoGS, a vision-based localization pipeline utilizing the 3D Gaussian Splatting (GS) technique as scene representation. This novel representation allows high-quality novel view synthesis. During the mapping phase, structure-from-motion (SfM) is applied first, followed by the generation of a GS map. During localization, the initial position is obtained through image retrieval, local feature matching coupled with a PnP solver, and then a high-precision pose is achieved through the analysis-by-synthesis manner on the GS map. Experimental results on four large-scale datasets demonstrate the proposed approach's SoTA accuracy in estimating camera poses and robustness under challenging few-shot conditions.
+  
+![image](https://github.com/user-attachments/assets/de6da3eb-b043-4360-af45-7612074d64b4)
+
+</details>
+
+[📃 arXiv:2409](https://arxiv.org/pdf/2410.11505v1) | [⌨️ Code] | [🌐 Project Page]
 
 
 
