@@ -474,9 +474,22 @@ We propose a new method named LoD-Loc for visual localization in the air. Unlike
 
 </details>
 
-[📃 arXiv:2410](https://arxiv.org/pdf/2410.12269) | [⌨️ Code](https://github.com/VictorZoo/LoD-Loc) | [🌐 Project Page](https://arxiv.org/pdf/2410.12269)
+[📃 arXiv:2410](https://arxiv.org/pdf/2410.12269) | [⌨️ Code](https://github.com/VictorZoo/LoD-Loc) | [🌐 Project Page](https://victorzoo.github.io/LoD-Loc.github.io/)
 
 
+#### <summary>Hybrid bundle-adjusting 3D Gaussians for view consistent rendering with pose optimization
+>*scaffold + BA*
+
+Authors: Yanan Guo, Ying Xie, Ying Chang, Benkui Zhang, Bo Jia, Lin Cao
+<details span>
+<summary><b>Abstract</b></summary>
+Novel view synthesis has made significant progress in the field of 3D computer vision. However, the rendering of view-consistent novel views from imperfect camera poses remains challenging. In this paper, we introduce a hybrid bundle-adjusting 3D Gaussians model that enables view-consistent rendering with pose optimization. This model jointly extract image-based and neural 3D representations to simultaneously generate view-consistent images and camera poses within forward-facing scenes. The effective of our model is demonstrated through extensive experiments conducted on both real and synthetic datasets. These experiments clearly illustrate that our model can effectively optimize neural scene representations while simultaneously resolving significant camera pose misalignments.
+  
+![image](https://github.com/user-attachments/assets/8aa5161e-892a-43a3-8cac-b33db731122b)
+
+</details>
+
+[📃 arXiv:2410](https://arxiv.org/pdf/2410.13280) | [⌨️ Code](https://github.com/Bistu3DV/hybridBA) | [🌐 Project Page]
 
 
 
