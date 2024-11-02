@@ -462,6 +462,23 @@ Visual localization involves estimating a query image's 6-DoF (degrees of freedo
 [📃 arXiv:2409](https://arxiv.org/pdf/2410.11505v1) | [⌨️ Code] | [🌐 Project Page]
 
 
+#### <summary>LoD-Loc: Aerial Visual Localization using LoD 3D Map with Neural Wireframe Alignment
+>*cost volume Cl is built for various pose hypotheses sampled around the coarse sensor pose ξp to select the pose ξl with the highest probability*
+
+Authors: Juelin Zhu, Shen Yan, Long Wang, Shengyue Zhang, Yu Liu, Maojun Zhang
+<details span>
+<summary><b>Abstract</b></summary>
+We propose a new method named LoD-Loc for visual localization in the air. Unlike existing localization algorithms, LoD-Loc does not rely on complex 3D representations and can estimate the pose of an Unmanned Aerial Vehicle (UAV) using a Level-of-Detail (LoD) 3D map. LoD-Loc mainly achieves this goal by aligning the wireframe derived from the LoD projected model with that predicted by the neural network. Specifically, given a coarse pose provided by the UAV sensor, LoD-Loc hierarchically builds a cost volume for uniformly sampled pose hypotheses to describe pose probability distribution and select a pose with maximum probability. Each cost within this volume measures the degree of line alignment between projected and predicted wireframes. LoD-Loc also devises a 6-DoF pose optimization algorithm to refine the previous result with a differentiable Gaussian-Newton method. As no public dataset exists for the studied problem, we collect two datasets with map levels of LoD3.0 and LoD2.0, along with real RGB queries and ground-truth pose annotations. We benchmark our method and demonstrate that LoD-Loc achieves excellent performance, even surpassing current state-of-the-art methods that use textured 3D models for localization.
+  
+![image](https://github.com/user-attachments/assets/b9095dd5-8694-4355-a7a8-ca04a7d9494f)
+
+</details>
+
+[📃 arXiv:2410](https://arxiv.org/pdf/2410.12269) | [⌨️ Code](https://github.com/VictorZoo/LoD-Loc) | [🌐 Project Page](https://arxiv.org/pdf/2410.12269)
+
+
+
+
 
 <br>
 <br>
