@@ -493,6 +493,23 @@ Novel view synthesis has made significant progress in the field of 3D computer v
 
 
 
+#### <summary>No Pose, No Problem: Surprisingly Simple 3D Gaussian Splats from Sparse Unposed Images
+>*solve the scale ambiguity issue of the reconstructed Gaussians by introducing a camera intrinsic token embedding*
+
+Authors: Botao Ye, Sifei Liu, Haofei Xu, Xueting Li, Marc Pollefeys, Ming-Hsuan Yang, Songyou Peng
+<details span>
+<summary><b>Abstract</b></summary>
+We introduce NoPoSplat, a feed-forward model capable of reconstructing 3D scenes parameterized by 3D Gaussians from \textit{unposed} sparse multi-view images. Our model, trained exclusively with photometric loss, achieves real-time 3D Gaussian reconstruction during inference. To eliminate the need for accurate pose input during reconstruction, we anchor one input view's local camera coordinates as the canonical space and train the network to predict Gaussian primitives for all views within this space. This approach obviates the need to transform Gaussian primitives from local coordinates into a global coordinate system, thus avoiding errors associated with per-frame Gaussians and pose estimation. To resolve scale ambiguity, we design and compare various intrinsic embedding methods, ultimately opting to convert camera intrinsics into a token embedding and concatenate it with image tokens as input to the model, enabling accurate scene scale prediction. We utilize the reconstructed 3D Gaussians for novel view synthesis and pose estimation tasks and propose a two-stage coarse-to-fine pipeline for accurate pose estimation. Experimental results demonstrate that our pose-free approach can achieve superior novel view synthesis quality compared to pose-required methods, particularly in scenarios with limited input image overlap. For pose estimation, our method, trained without ground truth depth or explicit matching loss, significantly outperforms the state-of-the-art methods with substantial improvements. This work makes significant advances in pose-free generalizable 3D reconstruction and demonstrates its applicability to real-world scenarios.
+
+![image](https://github.com/user-attachments/assets/03dfaa5b-a814-4122-883e-f1aea429f7bd)
+
+</details>
+
+[📃 arXiv:2410](https://arxiv.org/pdf/2410.24207) | [⌨️ Code](https://github.com/cvg/NoPoSplat) | [🌐 Project Page](https://noposplat.github.io/)
+
+
+
+
 <br>
 <br>
 
