@@ -673,6 +673,19 @@ Reconstructing urban street scenes is crucial due to its vital role in applicati
 
 [📃 arXiv:2409](https://arxiv.org/pdf/2410.04354) | [⌨️ Code] | [🌐 Project Page]
 
+#### <summary>A Global Depth-Range-Free Multi-View Stereo Transformer Network with Pose Embedding
+>  *MDA module, 3D pose embedding encodes through self-attention and cross-attention.relative pose and pixel geometric information into the features to enhance the learning capability of the attention mechanism*
+
+Authors: Xiao Cui, Weicai Ye, Yifan Wang, Guofeng Zhang, Wengang Zhou, Tong He, Houqiang Li
+<details span>
+<summary><b>Abstract</b></summary>
+In this paper, we propose a novel multi-view stereo (MVS) framework that gets rid of the depth range prior. Unlike recent prior-free MVS methods that work in a pair-wise manner, our method simultaneously considers all the source images. Specifically, we introduce a Multi-view Disparity Attention (MDA) module to aggregate long-range context information within and across multi-view images. Considering the asymmetry of the epipolar disparity flow, the key to our method lies in accurately modeling multi-view geometric constraints. We integrate pose embedding to encapsulate information such as multi-view camera poses, providing implicit geometric constraints for multi-view disparity feature fusion dominated by attention. Additionally, we construct corresponding hidden states for each source image due to significant differences in the observation quality of the same pixel in the reference frame across multiple source frames. We explicitly estimate the quality of the current pixel corresponding to sampled points on the epipolar line of the source image and dynamically update hidden states through the uncertainty estimation module. Extensive results on the DTU dataset and Tanks&Temple benchmark demonstrate the effectiveness of our method. 
+
+![image](https://github.com/user-attachments/assets/699b0c84-daed-4a61-b306-982d21e1c8cb)
+
+</details>
+
+[📃 arXiv:2411](https://arxiv.org/pdf/2411.01893) | [⌨️ Code] | [🌐 Project Page]
 
 
 
