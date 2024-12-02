@@ -507,6 +507,22 @@ We introduce NoPoSplat, a feed-forward model capable of reconstructing 3D scenes
 
 [📃 arXiv:2410](https://arxiv.org/pdf/2410.24207) | [⌨️ Code](https://github.com/cvg/NoPoSplat) | [🌐 Project Page](https://noposplat.github.io/)
 
+#### <summary>LiteVLoc: Map-Lite Visual Localization for Image Goal Navigation
+>*Navigation*
+
+Authors: Jianhao Jiao, Jinhao He, Changkun Liu, Sebastian Aegidius, Xiangcheng Hu, Tristan Braud, Dimitrios Kanoulas
+<details span>
+<summary><b>Abstract</b></summary>
+This paper presents LiteVLoc, a hierarchical visual localization framework that uses a lightweight topo-metric map to represent the environment. The method consists of three sequential modules that estimate camera poses in a coarse-to-fine manner. Unlike mainstream approaches relying on detailed 3D representations, LiteVLoc reduces storage overhead by leveraging learning-based feature matching and geometric solvers for metric pose estimation. A novel dataset for the map-free relocalization task is also introduced. Extensive experiments including localization and navigation in both simulated and real-world scenarios have validate the system's performance and demonstrated its precision and efficiency for large-scale deployment.
+
+![image](https://github.com/user-attachments/assets/aaaa1add-fc60-484c-93c7-0a2f440253e3)
+
+</details>
+
+[📃 arXiv:2410](https://arxiv.org/pdf/2410.04419) | [⌨️ Code](https://github.com/RPL-CS-UCL/litevloc_code) | [🌐 Project Page](https://rpl-cs-ucl.github.io/LiteVLoc/)
+
+
+
 
 
 
