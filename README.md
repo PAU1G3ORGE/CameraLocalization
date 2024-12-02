@@ -522,6 +522,19 @@ This paper presents LiteVLoc, a hierarchical visual localization framework that 
 [📃 arXiv:2410](https://arxiv.org/pdf/2410.04419) | [⌨️ Code](https://github.com/RPL-CS-UCL/litevloc_code) | [🌐 Project Page](https://rpl-cs-ucl.github.io/LiteVLoc/)
 
 
+#### <summary>OSMLoc: Single Image-Based Visual Localization in OpenStreetMap with Geometric and Semantic Guidances
+>*weird*
+
+Authors: Youqi Liao, Xieyuanli Chen, Shuhao Kang, Jianping Li, Zhen Dong, Hongchao Fan, Bisheng Yang
+<details span>
+<summary><b>Abstract</b></summary>
+OpenStreetMap (OSM), an online and versatile source of volunteered geographic information (VGI), is widely used for human self-localization by matching nearby visual observations with vectorized map data. However, due to the divergence in modalities and views, image-to-OSM (I2O) matching and localization remain challenging for robots, preventing the full utilization of VGI data in the unmanned ground vehicles and logistic industry. Inspired by the fact that the human brain relies on geometric and semantic understanding of sensory information for spatial localization tasks, we propose the OSMLoc in this paper. OSMLoc is a brain-inspired single-image visual localization method with semantic and geometric guidance to improve accuracy, robustness, and generalization ability. First, we equip the OSMLoc with the visual foundational model to extract powerful image features. Second, a geometry-guided depth distribution adapter is proposed to bridge the monocular depth estimation and camera-to-BEV transform. Thirdly, the semantic embeddings from the OSM data are utilized as auxiliary guidance for image-to-OSM feature matching. To validate the proposed OSMLoc, we collect a worldwide cross-area and cross-condition (CC) benchmark for extensive evaluation. Experiments on the MGL dataset, CC validation benchmark, and KITTI dataset have demonstrated the superiority of our method.
+
+![image](https://github.com/user-attachments/assets/aaaa1add-fc60-484c-93c7-0a2f440253e3)
+
+</details>
+
+[📃 arXiv:2411](https://arxiv.org/pdf/2411.08665) | [⌨️ Code](https://github.com/WHU-USI3DV/OSMLoc) | [🌐 Project Page](https://whu-usi3dv.github.io/OSMLoc/)
 
 
 
