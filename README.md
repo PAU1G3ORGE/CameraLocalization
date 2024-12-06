@@ -718,6 +718,22 @@ Neural surface reconstruction relies heavily on accurate camera poses as input. 
 [📃 arXiv:2411](https://arxiv.org/pdf/2411.13620) | [⌨️ Code] | [🌐 Project Page](https://rsg-nerf.github.io/RSG-NeRF/)
 
 
+#### <summary>ZeroGS: Training 3D Gaussian Splatting from Unposed Images
+> *SCR for pose estimation*
+
+Authors: Yu Chen, Rolandos Alexandros Potamias, Evangelos Ververas, Jifei Song, Jiankang Deng, Gim Hee Lee
+<details span>
+<summary><b>Abstract</b></summary>
+Neural radiance fields (NeRF) and 3D Gaussian Splatting (3DGS) are popular techniques to reconstruct and render photo-realistic images. However, the pre-requisite of running Structure-from-Motion (SfM) to get camera poses limits their completeness. While previous methods can reconstruct from a few unposed images, they are not applicable when images are unordered or densely captured. In this work, we propose ZeroGS to train 3DGS from hundreds of unposed and unordered images. Our method leverages a pretrained foundation model as the neural scene representation. Since the accuracy of the predicted pointmaps does not suffice for accurate image registration and high-fidelity image rendering, we propose to mitigate the issue by initializing and finetuning the pretrained model from a seed image. Images are then progressively registered and added to the training buffer, which is further used to train the model. We also propose to refine the camera poses and pointmaps by minimizing a point-to-camera ray consistency loss across multiple views. Experiments on the LLFF dataset, the MipNeRF360 dataset, and the Tanks-and-Temples dataset show that our method recovers more accurate camera poses than state-of-the-art pose-free NeRF/3DGS methods, and even renders higher quality images than 3DGS with COLMAP poses.
+
+![image](https://github.com/user-attachments/assets/49951fbc-2520-4dbe-9d47-3dd8eb8b48c1)
+
+</details>
+
+[📃 arXiv:2411](https://arxiv.org/pdf/2411.15779) | [⌨️ Code](https://github.com/aibluefisher/ZeroGS) | [🌐 Project Page](https://aibluefisher.github.io/ZeroGS/)
+
+
+
 <br>
 <br>
 
