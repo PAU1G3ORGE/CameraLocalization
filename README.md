@@ -537,6 +537,20 @@ OpenStreetMap (OSM), an online and versatile source of volunteered geographic in
 [📃 arXiv:2411](https://arxiv.org/pdf/2411.08665) | [⌨️ Code](https://github.com/WHU-USI3DV/OSMLoc) | [🌐 Project Page](https://whu-usi3dv.github.io/OSMLoc/)
 
 
+#### <summary>Unleashing the Power of Data Synthesis in Visual Localization
+
+Authors: Sihang Li, Siqi Tan, Bowen Chang, Jing Zhang, Chen Feng, Yiming Li
+<details span>
+<summary><b>Abstract</b></summary>
+Visual localization, which estimates a camera's pose within a known scene, is a long-standing challenge in vision and robotics. Recent end-to-end methods that directly regress camera poses from query images have gained attention for fast inference. However, existing methods often struggle to generalize to unseen views. In this work, we aim to unleash the power of data synthesis to promote the generalizability of pose regression. Specifically, we lift real 2D images into 3D Gaussian Splats with varying appearance and deblurring abilities, which are then used as a data engine to synthesize more posed images. To fully leverage the synthetic data, we build a two-branch joint training pipeline, with an adversarial discriminator to bridge the syn-to-real gap. Experiments on established benchmarks show that our method outperforms state-of-the-art end-to-end approaches, reducing translation and rotation errors by 50% and 21.6% on indoor datasets, and 35.56% and 38.7% on outdoor datasets. We also validate the effectiveness of our method in dynamic driving scenarios under varying weather conditions. Notably, as data synthesis scales up, our method exhibits a growing ability to interpolate and extrapolate training data for localizing unseen views.
+
+![image](https://github.com/user-attachments/assets/a90e2d6a-d290-45cd-96ec-f105bcc38106)
+
+</details>
+
+[📃 arXiv:2411](https://arxiv.org/pdf/2412.00138) | [⌨️ Code](https://github.com/ai4ce/RAP) | [🌐 Project Page](https://ai4ce.github.io/RAP/)
+
+
 
 
 <br>
