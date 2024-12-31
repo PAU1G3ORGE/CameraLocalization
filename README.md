@@ -548,8 +548,23 @@ Visual localization, which estimates a camera's pose within a known scene, is a 
 
 </details>
 
-[📃 arXiv:2411](https://arxiv.org/pdf/2412.00138) | [⌨️ Code](https://github.com/ai4ce/RAP) | [🌐 Project Page](https://ai4ce.github.io/RAP/)
+[📃 arXiv:2412](https://arxiv.org/pdf/2412.00138) | [⌨️ Code](https://github.com/ai4ce/RAP) | [🌐 Project Page](https://ai4ce.github.io/RAP/)
 
+
+
+#### <summary>Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization
+>*visual foundation model for fast training?*
+
+Authors: Siyan Dong, Shuzhe Wang, Shaohui Liu, Lulu Cai, Qingnan Fan, Juho Kannala, Yanchao Yang
+<details span>
+<summary><b>Abstract</b></summary>
+Visual localization aims to determine the camera pose of a query image relative to a database of posed images. In recent years, deep neural networks that directly regress camera poses have gained popularity due to their fast inference capabilities. However, existing methods struggle to either generalize well to new scenes or provide accurate camera pose estimates. To address these issues, we present \textbf{Reloc3r}, a simple yet effective visual localization framework. It consists of an elegantly designed relative pose regression network, and a minimalist motion averaging module for absolute pose estimation. Trained on approximately 8 million posed image pairs, Reloc3r achieves surprisingly good performance and generalization ability. We conduct extensive experiments on 6 public datasets, consistently demonstrating the effectiveness and efficiency of the proposed method. It provides high-quality camera pose estimates in real time and generalizes to novel scenes.
+
+![image](https://github.com/user-attachments/assets/653ad572-06ed-4420-b28f-16ba7d2574b9)
+
+</details>
+
+[📃 arXiv:2412](https://arxiv.org/pdf/2412.08376) | [⌨️ Code](https://github.com/ffrivera0/reloc3r) | [🌐 Project Page]
 
 
 
