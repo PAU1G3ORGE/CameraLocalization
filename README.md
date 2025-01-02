@@ -763,6 +763,22 @@ Neural radiance fields (NeRF) and 3D Gaussian Splatting (3DGS) are popular techn
 
 
 
+#### <summary>GAGS: Granularity-Aware Feature Distillation for Language Gaussian Splatting
+> *fine-grain feature rendering*
+
+Authors: Yuning Peng, Haiping Wang, Yuan Liu, Chenglu Wen, Zhen Dong, Bisheng Yang
+<details span>
+<summary><b>Abstract</b></summary>
+3D open-vocabulary scene understanding, which accurately perceives complex semantic properties of objects in space, has gained significant attention in recent years. In this paper, we propose GAGS, a framework that distills 2D CLIP features into 3D Gaussian splatting, enabling open-vocabulary queries for renderings on arbitrary viewpoints. The main challenge of distilling 2D features for 3D fields lies in the multiview inconsistency of extracted 2D features, which provides unstable supervision for the 3D feature field. GAGS addresses this challenge with two novel strategies. First, GAGS associates the prompt point density of SAM with the camera distances, which significantly improves the multiview consistency of segmentation results. Second, GAGS further decodes a granularity factor to guide the distillation process and this granularity factor can be learned in a unsupervised manner to only select the multiview consistent 2D features in the distillation process. Experimental results on two datasets demonstrate significant performance and stability improvements of GAGS in visual grounding and semantic segmentation, with an inference speed 2× faster than baseline methods. 
+
+![image](https://github.com/user-attachments/assets/176af1e8-2bbb-428e-8e2c-cbec17fde814)
+
+
+</details>
+
+[📃 arXiv:2412](https://arxiv.org/pdf/2412.13654) | [⌨️ Code](https://github.com/WHU-USI3DV/GAGS) | [🌐 Project Page](https://pz0826.github.io/GAGS-Webpage/)
+
+
 <br>
 <br>
 
