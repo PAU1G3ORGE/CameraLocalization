@@ -794,6 +794,21 @@ Modeling and understanding the 3D world is crucial for various applications, fro
 [📃 arXiv:2412](https://arxiv.org/pdf/2412.16932) | [⌨️ Code] | [🌐 Project Page]
 
 
+#### <summary>LangSurf: Language-Embedded Surface Gaussians for 3D Scene Understanding
+> *ensures a more spatially coherent semantic field*
+
+Authors: Hao Li, Roy Qin, Zhengyu Zou, Diqi He, Bohan Li, Bingquan Dai, Dingewn Zhang, Junwei Han
+<details span>
+<summary><b>Abstract</b></summary>
+Applying Gaussian Splatting to perception tasks for 3D scene understanding is becoming increasingly popular. Most existing works primarily focus on rendering 2D feature maps from novel viewpoints, which leads to an imprecise 3D language field with outlier languages, ultimately failing to align objects in 3D space. By utilizing masked images for feature extraction, these approaches also lack essential contextual information, leading to inaccurate feature representation. To this end, we propose a Language-Embedded Surface Field (LangSurf), which accurately aligns the 3D language fields with the surface of objects, facilitating precise 2D and 3D segmentation with text query, widely expanding the downstream tasks such as removal and editing. The core of LangSurf is a joint training strategy that flattens the language Gaussian on the object surfaces using geometry supervision and contrastive losses to assign accurate language features to the Gaussians of objects. In addition, we also introduce the Hierarchical-Context Awareness Module to extract features at the image level for contextual information then perform hierarchical mask pooling using masks segmented by SAM to obtain fine-grained language features in different hierarchies. Extensive experiments on open-vocabulary 2D and 3D semantic segmentation demonstrate that LangSurf outperforms the previous state-of-the-art method LangSplat by a large margin. As shown in Fig. 1, our method is capable of segmenting objects in 3D space, thus boosting the effectiveness of our approach in instance recognition, removal, and editing, which is also supported by comprehensive experiments.
+
+![image](https://github.com/user-attachments/assets/d5e6b3c1-8eee-4ec8-ae10-5afaee9be30c)
+
+</details>
+
+[📃 arXiv:2412](https://arxiv.org/pdf/2412.17635) | [⌨️ Code](https://github.com/lifuguan/LangSurf) | [🌐 Project Page](https://langsurf.github.io/)
+
+
 
 <br>
 <br>
