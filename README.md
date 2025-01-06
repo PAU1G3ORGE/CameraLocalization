@@ -810,6 +810,23 @@ Applying Gaussian Splatting to perception tasks for 3D scene understanding is be
 
 
 
+#### <summary>ActiveGS: Active Scene Reconstruction using Gaussian Splatting
+> *an effective confidence modelling technique for the Gaussian splatting map to identify under-reconstructed areas, while utilising spatial information from the voxel map to target unexplored areas and assist in collision-free path planning*
+
+Authors: Liren Jin, Xingguang Zhong, Yue Pan, Jens Behley, Cyrill Stachniss, Marija Popović
+<details span>
+<summary><b>Abstract</b></summary>
+Robotics applications often rely on scene reconstructions to enable downstream tasks. In this work, we tackle the challenge of actively building an accurate map of an unknown scene using an on-board RGB-D camera. We propose a hybrid map representation that combines a Gaussian splatting map with a coarse voxel map, leveraging the strengths of both representations: the high-fidelity scene reconstruction capabilities of Gaussian splatting and the spatial modelling strengths of the voxel map. The core of our framework is an effective confidence modelling technique for the Gaussian splatting map to identify under-reconstructed areas, while utilising spatial information from the voxel map to target unexplored areas and assist in collision-free path planning. By actively collecting scene information in under-reconstructed and unexplored areas for map updates, our approach achieves superior Gaussian splatting reconstruction results compared to state-of-the-art approaches. Additionally, we demonstrate the applicability of our active scene reconstruction framework in the real world using an unmanned aerial vehicle.
+
+![image](https://github.com/user-attachments/assets/7d8da2bb-0069-486d-b924-16cb4760c851)
+
+</details>
+
+[📃 arXiv:2412](https://arxiv.org/pdf/2412.17769) | [⌨️ Code](https://github.com/dmar-bonn/active-gs) | [🌐 Project Page]
+
+
+
+
 <br>
 <br>
 
