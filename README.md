@@ -568,6 +568,21 @@ Visual localization aims to determine the camera pose of a query image relative 
 
 
 
+#### <summary>R-SCoRe: Revisiting Scene Coordinate Regression for Robust Large-Scale Visual Localization
+>*Although global encodings with image level receptive fields can help, their low dimensionality may be insufficient to resolve ambiguities in complex environments, as shown in Fig. 3. This limitation can lead to imperfect grouping of reprojection constraints during training, thereby impairing the effectiveness of implicit triangulation.  It indicates that points closer to the camera empirically exhibit higher reprojection errors compared to distant points, hence we observe a bias toward distant points.*
+
+Authors: Xudong Jiang, Fangjinhua Wang, Silvano Galliani, Christoph Vogel, Marc Pollefeys
+<details span>
+<summary><b>Abstract</b></summary>
+Learning-based visual localization methods that use scene coordinate regression (SCR) offer the advantage of smaller map sizes. However, on datasets with complex illumination changes or image-level ambiguities, it remains a less robust alternative to feature matching methods. This work aims to close the gap. We introduce a covisibility graph-based global encoding learning and data augmentation strategy, along with a depth-adjusted reprojection loss to facilitate implicit triangulation. Additionally, we revisit the network architecture and local feature extraction module. Our method achieves state-of-the-art on challenging large-scale datasets without relying on network ensembles or 3D supervision. On Aachen Day-Night, we are 10× more accurate than previous SCR methods with similar map sizes and require at least 5× smaller map sizes than any other SCR method while still delivering superior accuracy.
+
+![image](https://github.com/user-attachments/assets/a77f9d74-c341-4e6b-8812-669a9b304171)
+
+</details>
+
+[📃 arXiv:2412](https://arxiv.org/pdf/2501.01421) | [⌨️ Code](https://arxiv.org/pdf/2501.01421) | [🌐 Project Page]
+
+
 <br>
 <br>
 
