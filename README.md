@@ -618,6 +618,22 @@ In recent years, transformer-based architectures become the de facto standard fo
 
 [📃 arXiv:2409](https://arxiv.org/pdf/2409.08769) | [⌨️ Code](https://arxiv.org/pdf/2409.08769) | [🌐 Project Page]
 
+
+
+#### <summary>From Sparse to Dense: Camera Relocalization with Scene-Specific Detector from Feature Gaussian Splatting
+>*gaussian point as keypoint*
+
+Authors: Zhiwei Huang, Hailin Yu, Yichun Shentu, Jin Yuan, Guofeng Zhang
+<details span>
+<summary><b>Abstract</b></summary>
+This paper presents a novel camera relocalization method, STDLoc, which leverages Feature Gaussian as scene representation. STDLoc is a full relocalization pipeline that can achieve accurate relocalization without relying on any pose prior. Unlike previous coarse-to-fine localization methods that require image retrieval first and then feature matching, we propose a novel sparse-to-dense localization paradigm. Based on this scene representation, we introduce a novel matching-oriented Gaussian sampling strategy and a scene-specific detector to achieve efficient and robust initial pose estimation. Furthermore, based on the initial localization results, we align the query feature map to the Gaussian feature field by dense feature matching to enable accurate localization. The experiments on indoor and outdoor datasets show that STDLoc outperforms current state-of-the-art localization methods in terms of localization accuracy and recall.
+
+![image](https://github.com/user-attachments/assets/57dced87-e499-46a8-85b9-0917776df8a9)
+
+</details>
+
+[📃 arXiv:2503](https://arxiv.org/pdf/2503.19358) | [⌨️ Code](https://github.com/zju3dv/STDLoc/tree/main) | [🌐 Project Page](https://zju3dv.github.io/STDLoc/)
+
 <br>
 <br>
 
